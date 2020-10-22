@@ -1,0 +1,15 @@
+#Estrutura do Software
+
+* Primeiramente foram definidos os 'path templates' necessários à conceção do programa na classe 'Configuration' na fase de configuração. Para guardar os templates dos comandos possíveis foi necessário criar a classe 'Router'. Nesta classe foi definida uma estrutura em 'ArrayList' com o tamanho dos métodos possiveis para esta aplicação, que neste caso serão 'GET e POST'. Dentro dessa estrutura está definido um 'TreeMap' que contém como chave uma 'String' onde serão armazenados os comandos definidos num 'Enum' chamado de 'Method', os valores de cada chave (método) será outra estrutura em 'TreeMap' que contém como chave o 'path template' e como valor o 'CommandHandler' correspondente.
+
+* Para verificar que os comandos inseridos pelo utilizador são compatíveis com o template criou-se um método 'match()' na classe 'Router' que recebe '{method  path  parameter}' introduzidos na linha de comandos. Esse método verifica o *path* introduzido e compara-o com os 'path templates' na estrutura 'ArrayList', verifica também os *parameters* comparanado-os com os que estão guardados numa estrutura em 'HashMap'.
+ 
+* Decidiu-se criar um package 'Model' com todos os tipos de Entidades, sendo desta maneira possível retornar um tipo específico de entidade quando fosse executado o método 'execute()' para que a informação pretendida pelo utilizador fosse visualizada na linha de comandos.
+
+* Na estrutura temos um package 'Commands', que armazena as classes para cada instrução possível (e.g“GetClassesByCourseOfSemesterAndNum”). Essas classes têm um método 'execute()' que retorna uma lista 'List<Entity>' e que realiza as instruções necessárias para a comunicação com a base de dados, onde o gerenciamento dos recursos de JDBC (connections) é feito. A conexão é aberta e fechada garantindo assim a libertação dos recursos após a realização de um comando.
+
+* Relativamente ao gerenciamento de erros e a sua comunicação ao utilizador por parte da aplicação 'App', se o utilizador não inserir três argumentos apresenta um erro de modo a informar que este inseriu argumentos inválidos. No que concerne a outro tipo de erros como a inexistência de conexão com a base de dados e erros semânticos na escrita do path, etc... são realizados no método 'executeCommand()'. 
+
+* Foram também adicionadas duas classes de testes para que se verifique se a informação nos comandos inseridos corresponde ao pretendido. Para isso, em cada uma dessas classes, existe um método que testa o comando correspondente, que contém uma lista 'List<Entity>' indicando a informação que se pretende nessa lista e comparando com a lista proveniente do comando correspondente.
+
+* De referir que foi criado um ficheiro “Auhentication.txt” que contém os dados pessoais de acesso à base de dados apoiada pela classe “Authentication”. No momento de criação de uma conexão essa classe irá ler o ficheiro para assim poder realizar o acesso, ficando com uma conexão por aplicação onde cada comando utiliza essa mesma conexão para abri-la e fechá-la quando se pretenda realizar um novo comando.

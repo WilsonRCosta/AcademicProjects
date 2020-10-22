@@ -1,0 +1,195 @@
+{
+	"info": {
+		"_postman_id": "c94e3c18-8dc9-4941-964b-b3a60532b325",
+		"name": "Ciborg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Popular Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/games",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Game Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/games/Spirit Island",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"games",
+						"Spirit Island"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Group",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson&O_grupo_dos_mais_sexy",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson&O_grupo_dos_mais_sexy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Group",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson&Grupo_David_Wilson_Alterado&Nova_Descricao_Alterada",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson&Grupo_David_Wilson_Alterado&Nova_Descricao_Alterada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Groups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Group Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Game into Group",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson&Spirit Island",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson&Spirit Island"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Game from Group",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson&Gloomhaven",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson&Gloomhaven"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Group Game By Duration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/groups/Grupo_David_Wilson/50/160",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"groups",
+						"Grupo_David_Wilson",
+						"50",
+						"160"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

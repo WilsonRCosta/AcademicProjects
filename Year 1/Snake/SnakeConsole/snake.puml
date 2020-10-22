@@ -1,0 +1,82 @@
+@startuml
+
+hide empty members
+package ctrl {
+    Snake *- Updater
+    Updater +- Snake
+}
+package model {
+    interface Listener
+    interface Observer
+    Listener +- Game
+    Observer +-- Level
+    Game ..> Loader : <<use>>
+    Level <--* Snake: -level
+    Level <--* Game: -currLevel
+    Loader ..> Level: <<create>>
+    Level ..> Cell: <<create>>
+    Game <--* Snake: -model
+    Level *-- Observer
+    Updater ..|> Observer
+    Updater ..|> Listener
+    enum Dir
+    package cells{
+        class Apple
+        class Enemy
+        class Head
+        class Mouse
+        class Tail
+        class Wall
+    }
+    abstract Cell
+    Cell <|-- Apple
+    Cell <|-- Enemy
+    Cell <|-- Head
+    Cell <|-- Mouse
+    Cell <|-- Tail
+    Cell <|-- Wall
+    Head ..> Dir : <<use>>
+    Cell ..> Dir : <<use>>
+    Enemy ..> Dir : <<use>>
+    Mouse ..> Dir : <<use>>
+}
+package view {
+    Cell <--* CellTile: cell
+    class EmptyTile
+    StatusPanel <--* Snake: -status
+    package cellTiles {
+        class Tile_Apple
+        class Tile_Enemy
+        class Tile_Head
+        class Tile_Mouse
+        class Tile_Tail
+        class Tile_Wall
+    }
+    CellTile <|-- Tile_Apple
+    CellTile <|-- Tile_Enemy
+    CellTile <|-- Tile_Head
+    CellTile <|-- Tile_Mouse
+    CellTile <|-- Tile_Tail
+    CellTile <|-- Tile_Wall
+}
+
+package isel.poo.console {
+    package tile {
+        abstract class Tile
+        class TilePanel
+        TilePanel o- Tile : *-tiles
+    }
+    Window <--* Snake: -win
+    Window .> View : <<display>>
+    View <|-- FieldView
+    View <|-- ParentView
+    View <|-- Tile
+    ParentView <|-- TilePanel
+    ParentView *-- View
+    ParentView <|-- StatusPanel
+    Tile <|-- CellTile
+    StatusPanel *-- FieldView: 3
+    Tile <|-- EmptyTile
+}
+
+@enduml

@@ -1,0 +1,596 @@
+{
+  "games": [
+    {
+      "id": "4G32qGJZWs",
+      "name": "Arkham Horror: The Card Game",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 2,
+      "min_playtime": 60,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "&quot;Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you&quot;.",
+      "description_preview": "\"Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you\".",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/4G32qGJZWs/arkham-horror-the-card-game",
+      "price": "35.93",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Publishing",
+      "publishers": [
+        "Fantasy Flight Publishing"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "cAIkk5aLdQ"
+        }
+      ],
+      "designers": [
+        "Nate French",
+        "Matthew Newman"
+      ],
+      "developers": [],
+      "artists": [
+        " Christopher Hosch",
+        "Marcin Jakubowski",
+        "Ignacio Bazán Lazcano",
+        "Henning Ludvigsen",
+        "Mercedes Opheim",
+        "Zoe Robinson",
+        "Evan Simonet"
+      ],
+      "names": [
+        "Arkham Horror LCG",
+        "Arkham Horror: Das Kartenspiel "
+      ],
+      "num_user_ratings": 173,
+      "average_user_rating": 3.7905937992643195,
+      "official_url": "https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/88/53/88538d11-5274-4b4a-ac8c-e8d758f71132/ahc01_learn_to_play_web.pdf",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 10,
+      "size_width": 2,
+      "size_depth": 10,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "L7kGfX7JlX"
+        },
+        {
+          "id": "j4bHFijdvS"
+        }
+      ],
+      "reddit_all_time_count": 472,
+      "reddit_week_count": 9,
+      "reddit_day_count": 1,
+      "historical_low_price": 18.39,
+      "historical_low_date": {
+        "$date": "2019-03-18T12:51:44.989Z"
+      }
+    },
+    {
+      "id": "Zd3nGqEu4q",
+      "name": "Arkham Horror",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 8,
+      "min_playtime": 120,
+      "max_playtime": 180,
+      "min_age": 12,
+      "description": "The town of Arkham, Massachusetts is in a panic. Horrific and bizarre events have begun to occur with increasing frequency -- all seeming to point towards some cataclysmic event in the near future that may spell disaster for everyone. Only one small band of investigators can save Arkham from the Great Old Ones and destruction!<br />\r\n<br />\r\nArkham Horror was originally published by Chaosium, Inc. almost two decades ago. This new, updated edition features stunning new artwork and graphical design as well as revised and expanded rules! No fan of the Cthulhu Mythos will want to miss this opportunity to acquire this classic Call of Cthulhu boardgame!",
+      "description_preview": "The town of Arkham, Massachusetts is in a panic. Horrific and bizarre events have begun to occur with increasing frequency -- all seeming to point towards some cataclysmic event in the near future that may spell disaster for everyone. Only one small band of investigators can save Arkham from the Great Old Ones and destruction! \r\n \r\nArkham Horror was originally published by Chaosium, Inc. almost two decades ago. This new, updated edition features stunning new artwork and graphical design as well as revised and expanded rules! No fan of the Cthulhu Mythos will want to miss this opportunity to acquire this classic Call of Cthulhu boardgame!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/Zd3nGqEu4q/arkham-horror-board-game",
+      "price": "249.77",
+      "msrp": "59.95",
+      "discount": "-3.17",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "cAIkk5aLdQ"
+        }
+      ],
+      "designers": [
+        "Nate French",
+        "Matthew Newman"
+      ],
+      "developers": [],
+      "artists": [
+        "Christopher Hosch",
+        "Marcin Jakubowski",
+        "Ignacio Bazán Lazcano",
+        "Henning Ludvigsen",
+        "Mercedes Opheim",
+        "Zoe Robinson",
+        "Evan Simonet"
+      ],
+      "names": [
+        "Arkham Horror",
+        "Arkham Horror"
+      ],
+      "num_user_ratings": 132,
+      "average_user_rating": 3.005837059115747,
+      "official_url": "https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/e8/17/e817095d-ac80-482b-867b-41b2e41a57f1/arkham_horror_core_rulebook.pdf",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 10,
+      "size_width": 2,
+      "size_depth": 10,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "DwBD1UqdX6"
+        }
+      ],
+      "reddit_all_time_count": 215,
+      "reddit_week_count": 2,
+      "reddit_day_count": 3,
+      "historical_low_price": 48.31,
+      "historical_low_date": {
+        "$date": "2019-01-09T00:36:52.979Z"
+      }
+    },
+    {
+      "id": "rzETAmUDCj",
+      "name": "Android Board Game",
+      "year_published": 2008,
+      "min_players": 3,
+      "max_players": 5,
+      "min_playtime": 120,
+      "max_playtime": 240,
+      "min_age": 13,
+      "description": "Android is a board game of murder and conspiracy set in a dystopian future. Detectives travel between the city of New Angeles and moon colony Heinlein chasing down leads, calling in favors, and uncovering the sinister conspiracy beneath it all. The detectives must balance their pursuit of the murderer against their personal lives and their inner demons.<br>\n<br>\nAndroid&apos;s innovative mechanics ensure that no two detectives play alike. Will you play as Louis Blaine, the crooked cop tormented by guilt and loss? Or will you take the role of Caprice Nisei, the psychic clone who struggles to retain her sanity while proving that she&apos;s as human as anyone else? Whoever you choose to play, you&apos;ve got just two weeks to solve the murder, uncover the conspiracy, and face your personal demons.",
+      "description_preview": "Android is a board game of murder and conspiracy set in a dystopian future. Detectives travel between the city of New Angeles and moon colony Heinlein chasing down leads, calling in favors, and uncovering the sinister conspiracy beneath it all. The detectives must balance their pursuit of the murderer against their personal lives and their inner demons. \n \nAndroid's innovative mechanics ensure that no two detectives play alike. Will you play as Louis Blaine, the crooked cop tormented by guilt and loss? Or will you take the role of Caprice Nisei, the psychic clone who struggles to retain her sanity while proving that she's as human as anyone else? Whoever you choose to play, you've got just two weeks to solve the murder, uncover the conspiracy, and face your personal demons.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253942244-511NJXBEklL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253942244-511NJXBEklL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559253942244-511NJXBEklL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559253942244-511NJXBEklL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559253942244-511NJXBEklL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559253942244-511NJXBEklL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559253942244-511NJXBEklL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/rzETAmUDCj/android-board-game",
+      "price": "101.47",
+      "msrp": "50.99",
+      "discount": "-0.99",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "oeg6wN9Eoc"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "T8JEFYwoqy"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [],
+      "designers": [
+        "Daniel Clark (I)",
+        "Kevin Wilson"
+      ],
+      "developers": [],
+      "artists": [
+        "Julie Dillon",
+        "Henning Ludvigsen",
+        "Stefan Morrell",
+        "Aaron Panagos",
+        "Didier Poli",
+        "Zoe Robinson"
+      ],
+      "names": [
+        "Android"
+      ],
+      "num_user_ratings": 19,
+      "average_user_rating": 3.2105263157894735,
+      "official_url": "https://www.fantasyflightgames.com/en/products/android/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 25,
+      "reddit_week_count": 0,
+      "reddit_day_count": 6,
+      "historical_low_price": 50.99,
+      "historical_low_date": {
+        "$date": "2019-01-09T00:50:21.445Z"
+      }
+    },
+    {
+      "id": "CPkgeQ2QlA",
+      "name": "DOOM: The Board Game",
+      "year_published": 2016,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 120,
+      "max_playtime": 180,
+      "min_age": 14,
+      "description": "<p>DOOM: The Board Game is a tactical combat game for two to five players, inspired by Bethesda's blockbuster video game. The asymmetrical gameplay pits one invader player and their arsenal of bloodthirsty demons against one to four elite marines, each equipped with a customizable deck of intimidating weapons and hardy armor, numerous lives, and the ability to Glory Kill weakened enemies within range. </p><p>Every mission presents you with a unique map, specific rules, various items for retrieval, and objectives for both invaders and marines. Whether you take on the role of the demonic invader or the continually respawning marines, you'll have to carefully plan out every move and use your specialized abilities to achieve your given objective and prevent your opponent from completing theirs. </p><p>Descend into the hellish landscape of DOOM and join the epic struggle between demon and marine.</p>",
+      "description_preview": " DOOM: The Board Game is a tactical combat game for two to five players, inspired by Bethesda's blockbuster video game. The asymmetrical gameplay pits one invader player and their arsenal of bloodthirsty demons against one to four elite marines, each equipped with a customizable deck of intimidating weapons and hardy armor, numerous lives, and the ability to Glory Kill weakened enemies within range.   Every mission presents you with a unique map, specific rules, various items for retrieval, and objectives for both invaders and marines. Whether you take on the role of the demonic invader or the continually respawning marines, you'll have to carefully plan out every move and use your specialized abilities to achieve your given objective and prevent your opponent from completing theirs.   Descend into the hellish landscape of DOOM and join the epic struggle between demon and marine. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1579921283905",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1579921283905",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1579921283905",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1579921283905",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1579921283905",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1579921283905",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1579921283905"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/CPkgeQ2QlA/doom-the-board-game",
+      "price": "63.20",
+      "msrp": "79.95",
+      "discount": "0.21",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "GNtouC8NLm"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "3B3QpKvXD3"
+        },
+        {
+          "id": "djokexoK0U"
+        }
+      ],
+      "designers": [
+        "Jonathan Ying"
+      ],
+      "developers": [],
+      "artists": [
+        "Zoe Robinson",
+        "Ben Zweifel"
+      ],
+      "names": [
+        "Doom"
+      ],
+      "num_user_ratings": 9,
+      "average_user_rating": 3.4444444444444446,
+      "official_url": "https://www.fantasyflightgames.com/en/products/doom/products/doom-the-board-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.fantasyflightgames.com/en/products/doom/",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 13,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 61.19,
+      "historical_low_date": {
+        "$date": "2020-03-03T10:06:13.963Z"
+      }
+    },
+    {
+      "id": "CHWyspr97E",
+      "name": "World of Warcraft: The Adventure Game",
+      "year_published": 2008,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 12,
+      "description": "World of Warcraft: the Adventure Game is an exciting and fast-paced journey through the world of Azeroth for 2 to 4 players. Choose your favorite hero and embark on an epic journey from humble beginnings to immense power, battling vicious monsters, powerful overlords, and your treacherous fellow players! Will you be the mightiest hero in all the land?",
+      "description_preview": "World of Warcraft: the Adventure Game is an exciting and fast-paced journey through the world of Azeroth for 2 to 4 players. Choose your favorite hero and embark on an epic journey from humble beginnings to immense power, battling vicious monsters, powerful overlords, and your treacherous fellow players! Will you be the mightiest hero in all the land?",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257329522-61l6RybBNRL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257329522-61l6RybBNRL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/CHWyspr97E/world-of-warcraft-the-adventure-game",
+      "price": "119.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Pub Inc",
+      "publishers": [
+        "Fantasy Flight Pub Inc"
+      ],
+      "mechanics": [
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "EVeAdboGUA"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [],
+      "designers": [
+        "Daniel Clark (I)",
+        "Michael Hurley",
+        "Corey Konieczka",
+        "Jeff Tidball"
+      ],
+      "developers": [],
+      "artists": [
+        "Tim Arney-O'Neil",
+        "Kevin Childress",
+        "Jesper Ejsing",
+        "Zoe Robinson"
+      ],
+      "names": [],
+      "num_user_ratings": 9,
+      "average_user_rating": 2.7777777777777777,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 2,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 93.06,
+      "historical_low_date": {
+        "$date": "2019-06-26T23:01:59.457Z"
+      }
+    },
+    {
+      "id": "RSD3SGe2e5",
+      "name": "Call of Cthulhu: The Card Game",
+      "year_published": 2008,
+      "min_players": 2,
+      "max_players": 2,
+      "min_playtime": 30,
+      "max_playtime": 30,
+      "min_age": 13,
+      "description": "Ancient, nameless horrors dwell in the darkness, writhing in the night sky and under the earth, just beyond our senses.\r\nIn Call of Cthulhu The Card Game, players take on the roles of investigators, villians, and unspeakable horrors inspired by the dark mythos of H.P. Lovecraft. Agency detectives, Miskatonic University students and faculty, and the members of the mysterious Syndicate all join the fight against otherworldly beings including Cthluhu, Hastur, Yog-Sothoth, and Shub Niggurath.\r\nCall of Cthulhu The Card Game is 2-player, customizable dueling game in which players command both human and monster factions. As a Living Card Game, hundreds of addtional Cards are available for all seven factions, allowing players to customize the contents of this set, or create thier own original decks.\r\nLovecraft's horrors live, in Call of Cthulhu The Card game! The Call of Cthulhu Card Game Core Set is for 2 players, ages 13+ and takes about 1/2 to 1 hour to play.\r\nThe Call of Cthulhu Card game includes:\r\nGame Board, Rulebook, 24 Cthulhu Story markers, 6 Plastic Cthulhu Domain Markers, 155 Customizable,  Deck Cards, 10 Story Cards.",
+      "description_preview": "Ancient, nameless horrors dwell in the darkness, writhing in the night sky and under the earth, just beyond our senses.\r\nIn Call of Cthulhu The Card Game, players take on the roles of investigators, villians, and unspeakable horrors inspired by the dark mythos of H.P. Lovecraft. Agency detectives, Miskatonic University students and faculty, and the members of the mysterious Syndicate all join the fight against otherworldly beings including Cthluhu, Hastur, Yog-Sothoth, and Shub Niggurath.\r\nCall of Cthulhu The Card Game is 2-player, customizable dueling game in which players command both human and monster factions. As a Living Card Game, hundreds of addtional Cards are available for all seven factions, allowing players to customize the contents of this set, or create thier own original decks.\r\nLovecraft's horrors live, in Call of Cthulhu The Card game! The Call of Cthulhu Card Game Core Set is for 2 players, ages 13+ and takes about 1/2 to 1 hour to play.\r\nThe Call of Cthulhu Card game includes:\r\nGame Board, Rulebook, 24 Cthulhu Story markers, 6 Plastic Cthulhu Domain Markers, 155 Customizable,  Deck Cards, 10 Story Cards.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257543322-31b0nEZUCDL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257543322-31b0nEZUCDL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/RSD3SGe2e5/call-of-cthulhu-the-card-game",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Publishing",
+      "publishers": [
+        "Fantasy Flight Publishing"
+      ],
+      "mechanics": [
+        {
+          "id": "iWODHwRGuU"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [],
+      "designers": [
+        "Nate French",
+        "Eric M. Lang"
+      ],
+      "developers": [],
+      "artists": [
+        "Aaron Acevedo",
+        "Sacha Angel Diener",
+        "Samuel Araya",
+        "Toren Atkinson",
+        "Tiziano Baracchi",
+        "Ryan Barger",
+        "Allan Bednar",
+        "Jason Caffoe",
+        "Mike Capprotti",
+        "Marco Caradonna",
+        "Matt Dixon",
+        "Steve Ellis (I)",
+        "John Goodenough",
+        "John Gravato",
+        "Christine Griffin",
+        "Rafał Hrynkiewicz",
+        "Mark Hyzer",
+        "Tomasz Jedruszek",
+        "McLean Kendree",
+        "Sam Kennedy",
+        "Ian Kirkpatrick",
+        "Camille Kuo",
+        "Henning Ludvigsen",
+        "Roberto Marchesi",
+        "Jeremy McHugh",
+        "Anna Mohrbacher",
+        "Régis Moulun",
+        "Andrew Navaro",
+        "German Nobile",
+        "Torstein Nordstrand",
+        "Federico Piatti",
+        "Zoe Robinson",
+        "Natascha Roeoesli",
+        "James Ryman",
+        "Brian Schomburg",
+        "Chris Seaman",
+        "Tony Shasteen",
+        "Lars Simkins",
+        "Gary Simpson",
+        "David Sourwine",
+        "Oliver Sprecht",
+        "Linda Tso",
+        "Cyril Van Der Haegen",
+        "Jessica Van Hulle",
+        "Tyler Walpole",
+        "Michael Williams",
+        "Jarreau Wimberly",
+        "Mark Winters"
+      ],
+      "names": [],
+      "num_user_ratings": 4,
+      "average_user_rating": 2.75,
+      "official_url": "https://www.fantasyflightgames.com/en/products/call-of-cthulhu-lcg/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0
+    },
+    {
+      "id": "wYpH7VBMlw",
+      "name": "Lead By Example",
+      "year_published": 2015,
+      "min_players": null,
+      "max_players": null,
+      "min_playtime": null,
+      "max_playtime": null,
+      "min_age": null,
+      "description": "",
+      "description_preview": "",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576680945196",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576680945196",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1576680945196",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1576680945196",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1576680945196",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1576680945196",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1576680945196"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/wYpH7VBMlw/lead-by-example",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [],
+      "categories": [],
+      "designers": [
+        "Gary Astleford",
+        "Brian Casey",
+        "John Dunn",
+        "Tim Flanders",
+        "Jason Marker",
+        "Andrew S. Fischer",
+        "Sam Stewart",
+        "Show More »"
+      ],
+      "developers": [],
+      "artists": [
+        "Cristi Balanescu",
+        "Matt Bradbury",
+        "Joshua Calloway",
+        "Tony Foti",
+        "David Griffith",
+        "Steven Hamilton",
+        "Tomasz Jedruszek",
+        "Jeff Lee Johnson",
+        "Jason Juta",
+        "David Kegg",
+        "Romana Kendelic",
+        "Adam Lane",
+        "Lucasfilm Ltd.",
+        "Ali Mabarak",
+        "Viniciusde S. Menzes",
+        "Siim Rimm",
+        "Zoe Robinson",
+        "Darren Tan",
+        "Ben Zweifel",
+        "Show More »"
+      ],
+      "names": [],
+      "num_user_ratings": 0,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0
+    }
+  ]
+}

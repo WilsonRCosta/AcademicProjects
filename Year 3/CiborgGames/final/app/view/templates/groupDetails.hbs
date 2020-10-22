@@ -1,0 +1,60 @@
+<div class="body-groupDetails">
+    <div class="group-board">
+        <h2 style="margin-left:38px; margin-top: 10px">DETAILS OF GROUP: {{groupDetails.groupName}}</h2>
+
+        <ul class="group-info">
+            <li><strong>Name:</strong> {{groupDetails.groupName}}</li>
+            <li><strong>Description:</strong> {{groupDetails.description}}</li>
+
+            <div id="divFilterGames" style="float: right;margin-right: 15px">
+                <form id="formFilterGames" class="form-inline md-form mr-auto mb-4" style="float:right;padding-right: 2vw;" action="/games/" method="GET">
+                    <span style="font-family: Abel;margin-right: 5px"><small>Add playtime range: </small></span>
+                    <input id="minPlaytime" style="width:60px;background-color: mediumaquamarine"  class="form-control" type="text" placeholder="Min">
+                    <input id="maxPlaytime" style="width:60px; background-color: mediumaquamarine"  class="form-control" type="text" placeholder="Max">
+                    <small style="margin-left: 10px">Order</small>
+                    <button type="submit" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;">
+                        <!--<a href="#groupDetails/{{groupDetails.groupName}}">-->
+                        <img src="{{filterImg}}" width="32px" height="32x" alt="Order Games"/>
+                    </button>
+                    <button class="btn btn-outline-dark" id="reset-filter" type="click">Reset</button>
+                </form>
+            </div>
+
+
+
+            <br><br>
+            <div class="container">
+                <table class="table" id="gamesTable">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Game Name</th>
+                        <th scope="col">Minimum Playtime</th>
+                        <th scope="col">Maximum Playtime</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#each groupDetails.games}}
+                        <tr>
+                            <td>{{inc @index}}</td>
+                            <td>
+                                <a style="color:black" href="#gameDetails/{{name}}" title="{{name}}">
+                                    <strong>{{name}}</strong>
+                                </a>
+                            </td>
+                            <td>{{min_playtime}}</td>
+                            <td>{{max_playtime}}</td>
+                            <td>
+                                <a id="deleteGame" href="#deleteGameFromGroup/{{../groupDetails.groupName}}/{{name}}" title="Delete {{name}}">
+                                    <img id="deleteGameImg-{{@index}}" src="{{../delImg}}" alt="Delete Game" />
+                                </a>
+                            </td>
+                        </tr>
+                    {{/each}}
+                    </tbody>
+                </table>
+            </div>
+        </ul>
+    </div>
+</div>

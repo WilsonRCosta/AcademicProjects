@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "textservice";
+
+package textservice;
+
+service TextService {
+  rpc signUp(User) returns (Session);
+  rpc login(User) returns (Session);
+  rpc logout(Session) returns (Void);
+
+  rpc uploadFile(File) returns (HashFile);
+  rpc getHashFiles(Session) returns (stream HashFile);
+  rpc getTranslatedFiles(Session) returns (stream HashFile);
+  rpc showResult(HashFile) returns (Result);
+  rpc showTranslatedResult(HashFile) returns (Result);
+}
+
+message User {
+  string accountType = 1;
+  string username = 2;
+  string password = 3;
+}
+
+message Session {
+  int64 sessionId = 1;
+  string accountType = 2;
+}
+
+message Result {
+  string text = 1;
+  string translated = 2;
+}
+
+message File {
+  bytes fileBytes = 1;
+  bool translate = 2;
+  string targetLanguage = 3;
+  int64 sessionId = 4;
+  string accountType = 5;
+}
+
+message HashFile {
+  string filename = 1;
+  int64 sessionId = 2;
+}
+
+message Void { }

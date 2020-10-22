@@ -1,0 +1,152 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/224544.jpg");
+    background-size: 100vw 100vh;
+    display: block;
+    width: 100vw;
+    height: 90vh;
+}
+div.index-title h1 {
+    text-align: center;
+    color: white;
+}
+
+.index-ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px 10px;
+    margin: 20px;
+}
+.index-ul li{
+    float: left;
+}
+.index-ul li a, #loginBtn {
+    display: block;
+    color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+}
+.index-ul li a:hover, #loginBtn:hover {
+    text-decoration: none;
+    border-radius: 25px 10px;
+    background-color: lightblue;
+    color: white;
+}
+.index-ul .desc {
+    float:right;
+    margin-right:20px;
+    color: white;
+}
+#loginBtn {
+    border-radius: 25px 10px;
+    font-size : 16px;
+}
+#logOutBtn {
+    display: none;
+}
+#signUpBtn {
+    padding: 16px 30px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+h2.games-header {
+    margin-left: 20px;
+}
+div.card-body p {
+    color: black;
+    float: left;
+}
+div.card {
+    width: 170px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: rgba(211,211,211,0.9);
+}
+img.img-game {
+    display: block;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+div.cards-table {
+    width: 90vw;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.container{
+    display:inline-block;
+    position:relative;
+}
+.container-button {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+div.body-allGroups {
+    text-align: center;
+}
+div.game-board {
+    border: 1px solid grey;
+    background-color: rgba(211,211,211,0.9);
+    padding: 10px;
+    border-radius: 30px;
+    width: 800px;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+div.game-board a {
+    float:right;
+    margin-right: 10px;
+}
+img.img-game-inside {
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+ul.game-info {
+    list-style-type: none;
+}
+ul.game-info li {
+    display: table-row;
+}
+div.group-board {
+    border: 1px solid grey;
+    background-color: rgba(211,211,211,0.9);
+    padding: 10px;
+    border-radius: 30px;
+    width: 800px;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+ul.group-info {
+    list-style-type: none;
+}
+table {
+    border-spacing: 0;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+p {
+    margin-left: 20px;
+}

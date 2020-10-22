@@ -1,0 +1,63 @@
+
+#1 15 x 15
+              X
+              X
+       A      X
+           XXXX
+
+XXXXX
+
+A             A
+
+       @
+
+X
+X
+X             X
+A             X
+
+#2 20 x 20
+XXXXXXXXX XXXXXXXXXX
+X                  X
+X               A  X
+X   A              X
+X        X         X
+X        X         X
+X        X         X
+X             M    X
+X                  X
+     XXXXXXXXX
+X                  X
+X                  X
+X                  X
+X   @    X    *    X
+X   A    X         X
+X        X         X
+X                  X
+X                  X
+X                  X
+XXXXXXXXX XXXXXXXXXX
+
+#3 22 x 25
+XXXXXXXXXXXXXXXXXXXX XXXX
+X             X         X
+X  A          X  A      X
+X    XXX            *   X
+X   M         X         X
+XXXXX  XXXXXXXXXXXXXXXXXX
+X                       X
+X   *               A   X
+X                       X
+X      XXXXXXXXXXXXXXXXXX
+X                       X
+X    M                  X
+X                       X
+XXXXXXXXXXXXXXXXXXXXX   X
+X                X      X
+X                X      X
+X   *            X      X
+X          X            X
+X    A     X            X
+X          X            X
+X          X  @        MX
+XXXXXXXXXXXXXXXXXXXX XXXX

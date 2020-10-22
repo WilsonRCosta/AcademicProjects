@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a86c022cc8004f98afa181d018a3d0dd" Name="Diagram1">
+        <EntityTypeShape EntityType="PilimModel.Cliente" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Contacto" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Contacto_Email" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Contacto_Telefonico" Width="1.5" PointX="7.5" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Instrumento_Financeiro" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Mercado_Financeiro" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Posicao" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Registo" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Triplos" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.Valores_Mercado" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PilimModel.resumo_portfolios" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="PilimModel.FK__Contacto__CC__59904A2C" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Posicao__CC__6319B466" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Contacto___Codig__5C6CB6D7" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Contacto___Codig__5F492382" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Instrumen__Codig__4F12BBB9" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Posicao__ISIN__6225902D" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Registo__ISIN__51EF2864" ManuallyRouted="false" />
+        <AssociationConnector Association="PilimModel.FK__Valores_M__Codig__467D75B8" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

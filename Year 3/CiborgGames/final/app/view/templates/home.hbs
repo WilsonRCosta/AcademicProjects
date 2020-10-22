@@ -1,0 +1,59 @@
+<p>This is a Web Application that shows the games present on the site <a style="color: black;text-decoration:none;" href="https://www.boardgameatlas.com/" target="_blank">
+    <strong>Board Game Atlas</strong></a>.
+    It also can add a specific game to a group after being logged in on this site and you can have your list of favorite games.</p>
+
+<div class="modal fade" id="signUpModal" role="dialog" style="position:absolute">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Sign Up</h4>
+            </div>
+            <div class="modal-body">
+                <div class="search-container" id="divSignUpForm">
+                    <form id="signUpForm" class="form-inline md-form mr-auto mb-4" action="/api/auth/signup" method="POST">
+                        <input id="signupUsername" class="form-control mr-sm-2" type="text" style="margin-left: 5px;width:100px" placeholder="User Name..." aria-label="UserName" >
+                        <input id="signupPassword" class="form-control mr-sm-2" type="password" style="margin-left: 5px;width:100px" placeholder="Password..." aria-label="Password">
+                        <button class="btn btn-dark" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="closeSignup" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="loginModal" role="dialog" style="position:absolute">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Log in credentials</h4>
+            </div>
+            <div class="modal-body">
+                <div class="search-container" id="divLoginForm">
+                    <form id="loginForm" class="form-inline md-form mr-auto mb-4" action="/api/auth/login" method="POST">
+                        <input id="loginUsername" class="form-control mr-sm-2" type="text" style="margin-left: 5px;width:100px" placeholder="User Name..." aria-label="UserName" >
+                        <input id="loginPassword" class="form-control mr-sm-2" type="password" style="margin-left: 5px;width:100px" placeholder="Password..." aria-label="Password">
+                        <button class="btn btn-dark" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="closeLogin" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="logoutModal" role="dialog" style="position:absolute">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="search-container" id="divLogoutForm">
+                    <button type="submit" id="buttonLogout">Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

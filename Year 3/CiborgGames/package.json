@@ -1,0 +1,19 @@
+{
+  "name": "webstorm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "request-promise": "^4.2.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

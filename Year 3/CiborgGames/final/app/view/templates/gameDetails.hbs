@@ -1,0 +1,69 @@
+<div class="body-gameDetails">
+    <div class="game-board">
+        <div class="container">
+            <div class="container-button" id="gameAddition" style="float:right">
+                <small style="font-family:Abel">Add Game to a Group</small>
+                <button id="addGame" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;"
+                        type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+                    <img src="{{addImg}}" alt="Add Game To a Group">
+                </button>
+            </div>
+            <img class="img-game-inside" src="{{game.image_url}}" alt="{{name}}">
+        </div>
+
+        <div class="modal fade" id="myModal" role="dialog" style="position:absolute">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">All Available Groups</h4>
+                    </div>
+                    <div class="modal-body">
+                        <table class="table">
+                            <thead> <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Group Name</th>
+                                <th scope="col"></th>
+                            </tr> </thead>
+                            <tbody>
+                            {{#each groups}}
+                                <tr>
+                                    <th scope="row">{{inc @index}}</th>
+                                    <td>{{groupName}}</td>
+                                    <td>
+                                        <button id="groupBtn{{@index}}" style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;"
+                                                type="button" data-toggle="modal" data-target="#myModal">
+                                            <img src="{{../addImg}}" alt="AddGameToGroup">
+                                        </button>
+                                    </td>
+                                </tr>
+                            {{/each}}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 style="margin-left:38px">DETAILS OF GAME: {{game.name}}</h2>
+        <a href="{{game.official_url}}"><strong>Official Link</strong> </a>
+        <ul class="game-info">
+            <li><strong>Name:</strong> {{game.name}}</li>
+            <li><strong>Year Published:</strong> {{game.year_published}}</li>
+            <li><strong>Min-Players:</strong> {{game.min_players}}</li>
+            <li><strong>Max-Players:</strong> {{game.max_players}}</li>
+            <li><strong>Min Playtime:</strong> {{game.min_playtime}}</li>
+            <li><strong>Max Playtime:</strong> {{game.max_playtime}}</li>
+            <li><strong>Min Age:</strong> {{game.min_age}}</li>
+            <li style="text-align:justify"><strong>Description:</strong> {{game.description}}</li>
+            <li><strong>Publishers:</strong> {{game.publishers}}</li>
+            <li><strong>Average User Rating:</strong> {{game.average_user_rating}}</li>
+            <li><strong>Price:</strong> ${{game.price}}</li>
+        </ul>
+    </div>
+</div>
+
+
+

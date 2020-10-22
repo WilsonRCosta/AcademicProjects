@@ -1,0 +1,820 @@
+{
+  "games": [
+    {
+      "id": "4G32qGJZWs",
+      "name": "Arkham Horror: The Card Game",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 2,
+      "min_playtime": 60,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "&quot;Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you&quot;.",
+      "description_preview": "\"Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you\".",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/4G32qGJZWs/arkham-horror-the-card-game",
+      "price": "35.93",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Publishing",
+      "publishers": [
+        "Fantasy Flight Publishing"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "cAIkk5aLdQ"
+        }
+      ],
+      "designers": [
+        "Nate French",
+        "Matthew Newman"
+      ],
+      "developers": [],
+      "artists": [
+        " Christopher Hosch",
+        "Marcin Jakubowski",
+        "Ignacio Bazán Lazcano",
+        "Henning Ludvigsen",
+        "Mercedes Opheim",
+        "Zoe Robinson",
+        "Evan Simonet"
+      ],
+      "names": [
+        "Arkham Horror LCG",
+        "Arkham Horror: Das Kartenspiel "
+      ],
+      "num_user_ratings": 173,
+      "average_user_rating": 3.7905937992643195,
+      "official_url": "https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/88/53/88538d11-5274-4b4a-ac8c-e8d758f71132/ahc01_learn_to_play_web.pdf",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 10,
+      "size_width": 2,
+      "size_depth": 10,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "L7kGfX7JlX"
+        },
+        {
+          "id": "j4bHFijdvS"
+        }
+      ],
+      "reddit_all_time_count": 468,
+      "reddit_week_count": 6,
+      "reddit_day_count": 3,
+      "historical_low_price": 18.39,
+      "historical_low_date": {
+        "$date": "2019-03-18T12:51:44.989Z"
+      }
+    },
+    {
+      "id": "zzISbkSWvd",
+      "name": "Friday",
+      "year_published": 2011,
+      "min_players": 1,
+      "max_players": 1,
+      "min_playtime": 18,
+      "max_playtime": 30,
+      "min_age": 10,
+      "description": "Friday is a solo adventure - only you can win the game!<br />\r\n<br />\r\nYou are helping Robinson, who came ashore on your island, fight against many hazards. At the beginning, Robinson is not very skillful. With each fight he wins you will improve his abilities, but defeats are also helping to get rid off of his worse habits. However, life on the island is energy-sapping, so that Robinson not only gains experiences during his time there, but also starts aging and tends to get clumsy.<br />\r\n<br />\r\nIn this game, Robinson is represented as a card stack of different behaviors. You are forced to improve this card stack, so you can collect the cards at the end of the game to give Robinson the best chance to win against the tough pirates.",
+      "description_preview": "Friday is a solo adventure - only you can win the game! \r\n \r\nYou are helping Robinson, who came ashore on your island, fight against many hazards. At the beginning, Robinson is not very skillful. With each fight he wins you will improve his abilities, but defeats are also helping to get rid off of his worse habits. However, life on the island is energy-sapping, so that Robinson not only gains experiences during his time there, but also starts aging and tends to get clumsy. \r\n \r\nIn this game, Robinson is represented as a card stack of different behaviors. You are forced to improve this card stack, so you can collect the cards at the end of the game to give Robinson the best chance to win against the tough pirates.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254947314-613c2BF2OX3L.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254947314-613c2BF2OX3L.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/zzISbkSWvd/friday",
+      "price": "13.49",
+      "msrp": "19.95",
+      "discount": "0.32",
+      "primary_publisher": "Rio Grande Games",
+      "publishers": [
+        "Rio Grande Games"
+      ],
+      "mechanics": [
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "dO9HVl2TW7"
+        },
+        {
+          "id": "9EIayX6n5a"
+        }
+      ],
+      "designers": [
+        "Friedemann Friese"
+      ],
+      "developers": [],
+      "artists": [
+        "Harald Lieske",
+        "Marcel-André Casasola Merkle"
+      ],
+      "names": [
+        "Friday"
+      ],
+      "num_user_ratings": 148,
+      "average_user_rating": 3.1161920849420848,
+      "official_url": "http://riograndegames.com/Game/399-Friday?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 238,
+      "reddit_week_count": 2,
+      "reddit_day_count": 1,
+      "historical_low_price": 12.1,
+      "historical_low_date": {
+        "$date": "2019-10-08T12:02:02.823Z"
+      }
+    },
+    {
+      "id": "Zd3nGqEu4q",
+      "name": "Arkham Horror",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 8,
+      "min_playtime": 120,
+      "max_playtime": 180,
+      "min_age": 12,
+      "description": "The town of Arkham, Massachusetts is in a panic. Horrific and bizarre events have begun to occur with increasing frequency -- all seeming to point towards some cataclysmic event in the near future that may spell disaster for everyone. Only one small band of investigators can save Arkham from the Great Old Ones and destruction!<br />\r\n<br />\r\nArkham Horror was originally published by Chaosium, Inc. almost two decades ago. This new, updated edition features stunning new artwork and graphical design as well as revised and expanded rules! No fan of the Cthulhu Mythos will want to miss this opportunity to acquire this classic Call of Cthulhu boardgame!",
+      "description_preview": "The town of Arkham, Massachusetts is in a panic. Horrific and bizarre events have begun to occur with increasing frequency -- all seeming to point towards some cataclysmic event in the near future that may spell disaster for everyone. Only one small band of investigators can save Arkham from the Great Old Ones and destruction! \r\n \r\nArkham Horror was originally published by Chaosium, Inc. almost two decades ago. This new, updated edition features stunning new artwork and graphical design as well as revised and expanded rules! No fan of the Cthulhu Mythos will want to miss this opportunity to acquire this classic Call of Cthulhu boardgame!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254926767-61X8MN6SuwL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254926767-61X8MN6SuwL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/Zd3nGqEu4q/arkham-horror-board-game",
+      "price": "266.01",
+      "msrp": "59.95",
+      "discount": "-3.44",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "cAIkk5aLdQ"
+        }
+      ],
+      "designers": [
+        "Nate French",
+        "Matthew Newman"
+      ],
+      "developers": [],
+      "artists": [
+        "Christopher Hosch",
+        "Marcin Jakubowski",
+        "Ignacio Bazán Lazcano",
+        "Henning Ludvigsen",
+        "Mercedes Opheim",
+        "Zoe Robinson",
+        "Evan Simonet"
+      ],
+      "names": [
+        "Arkham Horror",
+        "Arkham Horror"
+      ],
+      "num_user_ratings": 132,
+      "average_user_rating": 3.005837059115747,
+      "official_url": "https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/e8/17/e817095d-ac80-482b-867b-41b2e41a57f1/arkham_horror_core_rulebook.pdf",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 10,
+      "size_width": 2,
+      "size_depth": 10,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "DwBD1UqdX6"
+        }
+      ],
+      "reddit_all_time_count": 214,
+      "reddit_week_count": 2,
+      "reddit_day_count": 1,
+      "historical_low_price": 48.31,
+      "historical_low_date": {
+        "$date": "2019-01-09T00:36:52.979Z"
+      }
+    },
+    {
+      "id": "kDvbzBiavI",
+      "name": "The 7th Continent",
+      "year_published": 2017,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 5,
+      "max_playtime": 1000,
+      "min_age": null,
+      "description": "<p>The 7th Continent is a cooperative game of adventure, exploration and survival, for 1 to 4 players, inspired by the adventure books where ”you are the hero“. It’s also, thanks to the support of over 12,000 backers, one of the biggest board game worlds ever created!</p><p>The game became a reality thanks to over 12,000 backers, but the cost of making such a game is so high that a retail version is almost unfeasible. However, we wanted to give you another opportunity to get your hands on it: <b>your last chance… to get cursed</b>.</p><p>The Expansion “<b>What Goes Up, Must Come Down</b>” invites you to come and discover, or perhaps return to, The 7th Continent for some fresh adventures! Two new curses are waiting, each with their own unique gameplay elements, for you to discover.</p><p>In “<b>A Prison of Clouds</b>” you’ll find yourself aboard a Hot Air Balloon, in search of salvation and in “<b>The Veins of the Earth</b>” you will delve deep below the Continent in order to triumph over the Evil consuming you.</p>",
+      "description_preview": " The 7th Continent is a cooperative game of adventure, exploration and survival, for 1 to 4 players, inspired by the adventure books where ”you are the hero“. It’s also, thanks to the support of over 12,000 backers, one of the biggest board game worlds ever created!  The game became a reality thanks to over 12,000 backers, but the cost of making such a game is so high that a retail version is almost unfeasible. However, we wanted to give you another opportunity to get your hands on it:  your last chance… to get cursed .  The Expansion “ What Goes Up, Must Come Down ” invites you to come and discover, or perhaps return to, The 7th Continent for some fresh adventures! Two new curses are waiting, each with their own unique gameplay elements, for you to discover.  In “ A Prison of Clouds ” you’ll find yourself aboard a Hot Air Balloon, in search of salvation and in “ The Veins of the Earth ” you will delve deep below the Continent in order to triumph over the Evil consuming you. ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538419144648",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538419144648",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1538419144648",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1538419144648",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1538419144648",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1538419144648",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538419144648"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/kDvbzBiavI/the-7th-continent",
+      "price": "399.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": null,
+      "publishers": [
+        "Serious Poulp"
+      ],
+      "mechanics": [
+        {
+          "id": "9mNukNBxfZ"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "GUoWg3Mfh5"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        }
+      ],
+      "designers": [
+        "Ludovic Roudy",
+        "Bruno Sautter"
+      ],
+      "developers": [],
+      "artists": [
+        "Ludovic Roudy"
+      ],
+      "names": [
+        "The 7th Continent",
+        "The 7th Continent"
+      ],
+      "num_user_ratings": 85,
+      "average_user_rating": 3.8000000000000003,
+      "official_url": "https://the7thcontinent.seriouspoulp.com/en/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://the7thcontinent.seriouspoulp.com/documents/t7c/The7thContinent_rulebook.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 86,
+      "reddit_week_count": 2,
+      "reddit_day_count": 0,
+      "historical_low_price": 275.99,
+      "historical_low_date": {
+        "$date": "2019-07-17T17:36:05.410Z"
+      }
+    },
+    {
+      "id": "5sCQz6J5Su",
+      "name": "Shadowrun: Crossfire",
+      "year_published": 2014,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 60,
+      "min_age": 13,
+      "description": "The shadows of the Sixth World have every kind of danger you can imagine. Ultra-violent gang­ers, flesh-eating ghouls, mages that summon spirits from toxic waste, backstabbing corporate raiders, hard-nosed police officers, even dragons. You don't have much--mainly your guts, your wits and your friends. But maybe that's enough. Between you and your teammates, you can sling spells, hack the Matrix, talk a tiger out of his stripes, and bring down a charging ork from a hun­dred yards away. Will that be enough to face down the worst the mean streets can throw at you? Shadowrun: Crossfire is a deck-building game in one of the most popular game settings of all time. Crossing cyberpunk with fantasy and plunging players into a world domincated by ruthless megacorps, Crossfire gives players a chance to dive into the shadows to see if they can survive.",
+      "description_preview": "The shadows of the Sixth World have every kind of danger you can imagine. Ultra-violent gang­ers, flesh-eating ghouls, mages that summon spirits from toxic waste, backstabbing corporate raiders, hard-nosed police officers, even dragons. You don't have much--mainly your guts, your wits and your friends. But maybe that's enough. Between you and your teammates, you can sling spells, hack the Matrix, talk a tiger out of his stripes, and bring down a charging ork from a hun­dred yards away. Will that be enough to face down the worst the mean streets can throw at you? Shadowrun: Crossfire is a deck-building game in one of the most popular game settings of all time. Crossing cyberpunk with fantasy and plunging players into a world domincated by ruthless megacorps, Crossfire gives players a chance to dive into the shadows to see if they can survive.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257230731-61UWaQg4SyL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257230731-61UWaQg4SyL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/5sCQz6J5Su/shadowrun-crossfire-base-game",
+      "price": "199.95",
+      "msrp": "42.99",
+      "discount": "0.00",
+      "primary_publisher": "Catalyst Game Labs",
+      "publishers": [
+        "Catalyst Game Labs",
+        "Black Book Editions",
+        "Editora New Order"
+      ],
+      "mechanics": [
+        {
+          "id": "9mNukNBxfZ"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "ea1eaPBQn8"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Mike Elliott",
+        "Rob Heinsoo",
+        "Jim Lin",
+        "Gregory Marques",
+        "Sean McCarthy",
+        "Jay Schneider",
+        "Rob Watkins"
+      ],
+      "developers": [],
+      "artists": [
+        "Víctor Pérez Corbella"
+      ],
+      "names": [
+        "Shadowrun: Crossfire",
+        "Shadowrun Crossfire DBG: Core Game ",
+        "Shadowrun Crossfire: Cooperative Deckbuilding Game"
+      ],
+      "num_user_ratings": 30,
+      "average_user_rating": 3.1333333333333333,
+      "official_url": "http://www.shadowruntabletop.com/shadowrun-crossfire-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 52,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 56.56,
+      "historical_low_date": {
+        "$date": "2019-09-23T10:02:20.854Z"
+      }
+    },
+    {
+      "id": "LVGFgKtrcS",
+      "name": "Dragonwood",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 15,
+      "max_playtime": 30,
+      "min_age": 8,
+      "description": "Dare to enter Dragonwood! Deep in the heart of this mythical forest lurk angry ogres, giggling goblins, and even the famed and fearsome fire-breathers themselves!<br /><br />\r\nIn Dragonwood, you collect sets of adventurer cards to earn dice, which you then use to roll against your foes. Stomp on some fire ants, shriek at a grumpy troll, or strike the menacing orange dragon with a magical silver sword. Choose your strategy carefully because the landscape of Dragonwood is ever-changing. Only the bravest will overcome the odds to emerge victorious!",
+      "description_preview": "Dare to enter Dragonwood! Deep in the heart of this mythical forest lurk angry ogres, giggling goblins, and even the famed and fearsome fire-breathers themselves!  \r\nIn Dragonwood, you collect sets of adventurer cards to earn dice, which you then use to roll against your foes. Stomp on some fire ants, shriek at a grumpy troll, or strike the menacing orange dragon with a magical silver sword. Choose your strategy carefully because the landscape of Dragonwood is ever-changing. Only the bravest will overcome the odds to emerge victorious!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559255036680-61lZnCHp3GL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255036680-61lZnCHp3GL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/LVGFgKtrcS/dragonwood",
+      "price": "10.99",
+      "msrp": "14.99",
+      "discount": "0.27",
+      "primary_publisher": "Gamewright",
+      "publishers": [
+        "Gamewright"
+      ],
+      "mechanics": [
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "mavSOM8vjH"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        "Darren Kisgen"
+      ],
+      "developers": [],
+      "artists": [
+        "Chris Beatrice"
+      ],
+      "names": [],
+      "num_user_ratings": 27,
+      "average_user_rating": 2.962962962962963,
+      "official_url": "https://gamewright.com/product/Dragonwood?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://gamewright.com/pdfs/Rules/DragonwoodTM-RULES.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 33,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 9.89,
+      "historical_low_date": {
+        "$date": "2019-09-07T12:01:40.297Z"
+      }
+    },
+    {
+      "id": "gMHerNI10n",
+      "name": "Artifacts, Inc.",
+      "year_published": 2014,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 75,
+      "min_age": 13,
+      "description": "New York, 1929: A frenzy of interest in antiquity is sweeping the nation! With museums hungry for mysterious and exotic artifacts - and you hungry for adventure - you start up your own archeology company. Untold wonders await within dangerous jungles, harsh deserts, and wind-swept mountains. Will you gain a reputation as the most intrepid and famous adventurer of all time?<br />\r\n<br />\r\nIn Artifacts, Inc., 2-4 players compete to grow the most famous archeology company. Players roll dice, which represent their troop of adventurers, and place them on cards in order to find artifacts, sell them to museums, and purchase new cards representing their company assets. Players can choose to focus on making lots of money by selling artifacts, having museum majorities, creating the best combination of expeditions and buildings, or searching below the waves for lost cities and hidden treasures. The first player to reach 20 reputation triggers the end of the game, and the player with the most total reputation wins!",
+      "description_preview": "New York, 1929: A frenzy of interest in antiquity is sweeping the nation! With museums hungry for mysterious and exotic artifacts - and you hungry for adventure - you start up your own archeology company. Untold wonders await within dangerous jungles, harsh deserts, and wind-swept mountains. Will you gain a reputation as the most intrepid and famous adventurer of all time? \r\n \r\nIn Artifacts, Inc., 2-4 players compete to grow the most famous archeology company. Players roll dice, which represent their troop of adventurers, and place them on cards in order to find artifacts, sell them to museums, and purchase new cards representing their company assets. Players can choose to focus on making lots of money by selling artifacts, having museum majorities, creating the best combination of expeditions and buildings, or searching below the waves for lost cities and hidden treasures. The first player to reach 20 reputation triggers the end of the game, and the player with the most total reputation wins!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559255102497-51iLIcrZZCL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559255102497-51iLIcrZZCL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/gMHerNI10n/artifacts-inc",
+      "price": "17.47",
+      "msrp": "24.99",
+      "discount": "0.30",
+      "primary_publisher": "Red Raven Games",
+      "publishers": [
+        "Red Raven Games",
+        "IELLO"
+      ],
+      "mechanics": [
+        {
+          "id": "oeg6wN9Eoc"
+        },
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "iWODHwRGuU"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "N0TkEGfEsF"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        }
+      ],
+      "designers": [
+        "Ryan Laukat"
+      ],
+      "developers": [],
+      "artists": [
+        "Ryan Laukat"
+      ],
+      "names": [],
+      "num_user_ratings": 35,
+      "average_user_rating": 3.085714285714286,
+      "official_url": "https://redravengames.squarespace.com/artifacts-inc?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://redravengames.squarespace.com/s/artifacts_protorules01.pdf",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 6,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 17.47,
+      "historical_low_date": {
+        "$date": "2020-01-25T12:02:20.153Z"
+      }
+    },
+    {
+      "id": "ABjr0oVsmc",
+      "name": "Archaeology The Card Game",
+      "year_published": 2007,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 20,
+      "max_playtime": 20,
+      "min_age": 8,
+      "description": "Discover the lost treasures of Egypt and make your fortune! You are an archaeologist working the dig sites of the Egyptian desert. Search for the right pieces to complete torn parchments, broken pots and other priceless artifacts. Explore an ancient pyramid hoping to uncover a huge stash of treasure! Trade shrewdly at the local marketplace to increase the value of your collection. Sell your treasures to the museum at just the right time for maximum profit. But beware, the desert also has its dangers! A devastating sandstorm can throw your expedition into disarray, and cunning thieves lurk around the dig site ready to steal your prize discovery!",
+      "description_preview": "Discover the lost treasures of Egypt and make your fortune! You are an archaeologist working the dig sites of the Egyptian desert. Search for the right pieces to complete torn parchments, broken pots and other priceless artifacts. Explore an ancient pyramid hoping to uncover a huge stash of treasure! Trade shrewdly at the local marketplace to increase the value of your collection. Sell your treasures to the museum at just the right time for maximum profit. But beware, the desert also has its dangers! A devastating sandstorm can throw your expedition into disarray, and cunning thieves lurk around the dig site ready to steal your prize discovery!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257307927-51An2Be-8SbL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257307927-51An2Be-8SbL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/ABjr0oVsmc/archaeology-the-card-game",
+      "price": "29.95",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Flat River Group",
+      "publishers": [
+        "Z-Man Games"
+      ],
+      "mechanics": [
+        {
+          "id": "iWODHwRGuU"
+        },
+        {
+          "id": "hmipYN1R1I"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "a8NM5cugJX"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        }
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "developers": [],
+      "artists": [
+        "Atha Kanaani"
+      ],
+      "names": [],
+      "num_user_ratings": 26,
+      "average_user_rating": 3.076923076923077,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 29.95,
+      "historical_low_date": {
+        "$date": "2019-01-05T08:00:00.000Z"
+      }
+    },
+    {
+      "id": "AKIHmF9Yec",
+      "name": "Quicksand",
+      "year_published": 2003,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 10,
+      "max_playtime": 20,
+      "min_age": 12,
+      "description": "In Quicksand, each player controls one of six explorers racing to discover the hidden temple. Play cards to move your explorer closer to the temple, move your opponents' explorers onto quicksand, or discover secret treasures to help you win the game.",
+      "description_preview": "In Quicksand, each player controls one of six explorers racing to discover the hidden temple. Play cards to move your explorer closer to the temple, move your opponents' explorers onto quicksand, or discover secret treasures to help you win the game.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257273593-61dK6S9UTqL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257273593-61dK6S9UTqL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/AKIHmF9Yec/quicksand-game",
+      "price": "99.99",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Games",
+      "publishers": [
+        "Fantasy Flight Games"
+      ],
+      "mechanics": [
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "PinhJrhnxU"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "tQGLgwdbYH"
+        }
+      ],
+      "designers": [
+        "Stefano Cavanè"
+      ],
+      "developers": [],
+      "artists": [
+        "Thomas Denmark",
+        "Scott Nicely",
+        "David Rabbitte",
+        "Brian Schomburg"
+      ],
+      "names": [
+        "Quicksand"
+      ],
+      "num_user_ratings": 6,
+      "average_user_rating": 2.6666666666666665,
+      "official_url": null,
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0,
+      "reddit_day_count": 0,
+      "historical_low_price": 79.99,
+      "historical_low_date": {
+        "$date": "2019-01-09T04:45:51.828Z"
+      }
+    },
+    {
+      "id": "aT4BX8hJIw",
+      "name": "Lady Death: Last Stand",
+      "year_published": 2019,
+      "min_players": 1,
+      "max_players": 3,
+      "min_playtime": 15,
+      "max_playtime": 60,
+      "min_age": 12,
+      "description": "Defeat waves of enemies as they attempt to escape Hell and invade Earth. Each turn, encounters are drawn from a deck and are added to a game board where they advance closer to Earth. Using attacks, abilities, strategy, and a little luck, defeat these encounters and achieve the win condition to move on to the next campaign.",
+      "description_preview": "Defeat waves of enemies as they attempt to escape Hell and invade Earth. Each turn, encounters are drawn from a deck and are added to a game board where they advance closer to Earth. Using attacks, abilities, strategy, and a little luck, defeat these encounters and achieve the win condition to move on to the next campaign.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575085097686",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575085097686",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1575085097686",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1575085097686",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1575085097686",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1575085097686",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1575085097686"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/aT4BX8hJIw/lady-death-last-stand",
+      "price": "0.00",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Ash Maczko",
+      "publishers": [],
+      "mechanics": [],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eFaACC6y2c"
+        },
+        {
+          "id": "fW5vusE96B"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "G5kfqnPBP6"
+        },
+        {
+          "id": "ge8pIhEUGE"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "rrvd68LjOR"
+        },
+        {
+          "id": "dO9HVl2TW7"
+        }
+      ],
+      "designers": [],
+      "developers": [],
+      "artists": [],
+      "names": [
+        "Lady Death: Last Stand"
+      ],
+      "num_user_ratings": 0,
+      "official_url": "https://www.kickstarter.com/projects/ashmaczko/lady-death-last-stand?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": null,
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 0,
+      "reddit_week_count": 0
+    }
+  ]
+}

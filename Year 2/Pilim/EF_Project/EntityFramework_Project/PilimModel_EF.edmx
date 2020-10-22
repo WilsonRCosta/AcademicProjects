@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PilimModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="CC" />
+          </Key>
+          <Property Name="CC" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="NIF" Type="varchar" MaxLength="9" Nullable="false" />
+          <Property Name="NomeCliente" Type="varchar" MaxLength="255" />
+          <Property Name="NomePortfolio" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ValorTotalPortfolio" Type="money" />
+        </EntityType>
+        <EntityType Name="Contacto">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="CC" Type="varchar" MaxLength="12" />
+          <Property Name="Descricao" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Contacto_Email">
+          <Key>
+            <PropertyRef Name="Endereco" />
+          </Key>
+          <Property Name="Endereco" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="Codigo_Contacto" Type="varchar" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="Contacto_Telefonico">
+          <Key>
+            <PropertyRef Name="Numero" />
+          </Key>
+          <Property Name="Numero" Type="numeric" Precision="9" Scale="0" Nullable="false" />
+          <Property Name="Indicativo" Type="numeric" Precision="3" Scale="0" />
+          <Property Name="Codigo_Contacto" Type="varchar" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="Instrumento_Financeiro">
+          <Key>
+            <PropertyRef Name="ISIN" />
+          </Key>
+          <Property Name="ISIN" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="CodigoMercado" Type="varchar" MaxLength="12" />
+          <Property Name="Descricao" Type="varchar" MaxLength="255" />
+          <Property Name="ValorAtual" Type="money" />
+          <Property Name="ValorVariacaoDiaria" Type="money" />
+          <Property Name="PercentagemVariacaoDiaria" Type="money" />
+          <Property Name="ValorVariacao6Meses" Type="money" />
+          <Property Name="PercentagemVariacao6Meses" Type="money" />
+          <Property Name="Media6Meses" Type="money" />
+        </EntityType>
+        <EntityType Name="Mercado_Financeiro">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Nome" Type="varchar" MaxLength="50" />
+          <Property Name="Descricao" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Posicao">
+          <Key>
+            <PropertyRef Name="ISIN" />
+            <PropertyRef Name="CC" />
+          </Key>
+          <Property Name="ISIN" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="CC" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Quantidade" Type="float" />
+        </EntityType>
+        <EntityType Name="Registo">
+          <Key>
+            <PropertyRef Name="ISIN" />
+            <PropertyRef Name="Dia" />
+          </Key>
+          <Property Name="ISIN" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Dia" Type="date" Nullable="false" />
+          <Property Name="ValorAbertura" Type="money" />
+          <Property Name="ValorFecho" Type="money" />
+          <Property Name="ValorMaximo" Type="money" />
+          <Property Name="ValorMinimo" Type="money" />
+          <Property Name="HoraFecho" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Triplos">
+          <Key>
+            <PropertyRef Name="Identificacao" />
+            <PropertyRef Name="Dia" />
+          </Key>
+          <Property Name="Identificacao" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="Dia" Type="datetime" Nullable="false" />
+          <Property Name="Valor" Type="money" />
+          <Property Name="Observado" Type="bit" />
+        </EntityType>
+        <EntityType Name="Valores_Mercado">
+          <Key>
+            <PropertyRef Name="Dia" />
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Dia" Type="date" Nullable="false" />
+          <Property Name="Codigo" Type="varchar" MaxLength="12" Nullable="false" />
+          <Property Name="ValorIndice" Type="money" />
+          <Property Name="ValorAbertura" Type="money" />
+          <Property Name="VariacaoDiaria" Type="money" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'TL51N_11.dbo.resumo_portfolios' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="resumo_portfolios">
+          <Key>
+            <PropertyRef Name="NomePortfolio" />
+          </Key>
+          <Property Name="NomeCliente" Type="varchar" MaxLength="255" />
+          <Property Name="NomePortfolio" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="NumeroIstrumentos" Type="int" />
+          <Property Name="ValorTotalPortfolio" Type="money" />
+        </EntityType>
+        <Association Name="FK__Contacto___Codig__5C6CB6D7">
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="0..1" />
+          <End Role="Contacto_Telefonico" Type="Self.Contacto_Telefonico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contacto">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Contacto_Telefonico">
+              <PropertyRef Name="Codigo_Contacto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacto___Codig__5F492382">
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="0..1" />
+          <End Role="Contacto_Email" Type="Self.Contacto_Email" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contacto">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Contacto_Email">
+              <PropertyRef Name="Codigo_Contacto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacto__CC__59904A2C">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="CC" />
+            </Principal>
+            <Dependent Role="Contacto">
+              <PropertyRef Name="CC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Instrumen__Codig__4F12BBB9">
+          <End Role="Mercado_Financeiro" Type="Self.Mercado_Financeiro" Multiplicity="0..1" />
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mercado_Financeiro">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Instrumento_Financeiro">
+              <PropertyRef Name="CodigoMercado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posicao__CC__6319B466">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="Posicao" Type="Self.Posicao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="CC" />
+            </Principal>
+            <Dependent Role="Posicao">
+              <PropertyRef Name="CC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posicao__ISIN__6225902D">
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="1" />
+          <End Role="Posicao" Type="Self.Posicao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instrumento_Financeiro">
+              <PropertyRef Name="ISIN" />
+            </Principal>
+            <Dependent Role="Posicao">
+              <PropertyRef Name="ISIN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Registo__ISIN__51EF2864">
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="1" />
+          <End Role="Registo" Type="Self.Registo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instrumento_Financeiro">
+              <PropertyRef Name="ISIN" />
+            </Principal>
+            <Dependent Role="Registo">
+              <PropertyRef Name="ISIN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Valores_M__Codig__467D75B8">
+          <End Role="Mercado_Financeiro" Type="Self.Mercado_Financeiro" Multiplicity="1" />
+          <End Role="Valores_Mercado" Type="Self.Valores_Mercado" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mercado_Financeiro">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Valores_Mercado">
+              <PropertyRef Name="Codigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="listar_portfolio" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="nomeP" Type="varchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="isdn" Type="varchar" MaxLength="12" />
+                <Property Name="quantidade" Type="float" />
+                <Property Name="ValorAtual" Type="money" />
+                <Property Name="PercentagemVariacao" Type="money" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="Media6Meses" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="money">
+          <Parameter Name="isin" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="p_actualizaValorDiario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="PilimModelStoreContainer">
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contacto" EntityType="Self.Contacto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contacto_Email" EntityType="Self.Contacto_Email" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contacto_Telefonico" EntityType="Self.Contacto_Telefonico" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Instrumento_Financeiro" EntityType="Self.Instrumento_Financeiro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mercado_Financeiro" EntityType="Self.Mercado_Financeiro" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Posicao" EntityType="Self.Posicao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Registo" EntityType="Self.Registo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Triplos" EntityType="Self.Triplos" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Valores_Mercado" EntityType="Self.Valores_Mercado" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="resumo_portfolios" EntityType="Self.resumo_portfolios" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [resumo_portfolios].[NomeCliente] AS [NomeCliente], 
+    [resumo_portfolios].[NomePortfolio] AS [NomePortfolio], 
+    [resumo_portfolios].[NumeroIstrumentos] AS [NumeroIstrumentos], 
+    [resumo_portfolios].[ValorTotalPortfolio] AS [ValorTotalPortfolio]
+    FROM [dbo].[resumo_portfolios] AS [resumo_portfolios]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK__Contacto___Codig__5C6CB6D7" Association="Self.FK__Contacto___Codig__5C6CB6D7">
+            <End Role="Contacto" EntitySet="Contacto" />
+            <End Role="Contacto_Telefonico" EntitySet="Contacto_Telefonico" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacto___Codig__5F492382" Association="Self.FK__Contacto___Codig__5F492382">
+            <End Role="Contacto" EntitySet="Contacto" />
+            <End Role="Contacto_Email" EntitySet="Contacto_Email" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacto__CC__59904A2C" Association="Self.FK__Contacto__CC__59904A2C">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Contacto" EntitySet="Contacto" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Instrumen__Codig__4F12BBB9" Association="Self.FK__Instrumen__Codig__4F12BBB9">
+            <End Role="Mercado_Financeiro" EntitySet="Mercado_Financeiro" />
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posicao__CC__6319B466" Association="Self.FK__Posicao__CC__6319B466">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Posicao" EntitySet="Posicao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posicao__ISIN__6225902D" Association="Self.FK__Posicao__ISIN__6225902D">
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+            <End Role="Posicao" EntitySet="Posicao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Registo__ISIN__51EF2864" Association="Self.FK__Registo__ISIN__51EF2864">
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+            <End Role="Registo" EntitySet="Registo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Valores_M__Codig__467D75B8" Association="Self.FK__Valores_M__Codig__467D75B8">
+            <End Role="Mercado_Financeiro" EntitySet="Mercado_Financeiro" />
+            <End Role="Valores_Mercado" EntitySet="Valores_Mercado" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PilimModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <ComplexType Name="listar_portfolio_Result">
+          <Property Name="ValorAtual" Type="Decimal" Precision="19" Scale="4" Nullable="true" />
+          <Property Type="String" Name="isdn" Nullable="true" MaxLength="12" />
+          <Property Type="Double" Name="quantidade" Nullable="true" />
+          <Property Type="Decimal" Name="PercentagemVariacao" Nullable="true" Precision="19" Scale="4" />
+        </ComplexType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="CC" />
+          </Key>
+          <Property Name="CC" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NIF" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NomeCliente" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NomePortfolio" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ValorTotalPortfolio" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Contacto" Relationship="Self.FK__Contacto__CC__59904A2C" FromRole="Cliente" ToRole="Contacto" />
+          <NavigationProperty Name="Posicao" Relationship="Self.FK__Posicao__CC__6319B466" FromRole="Cliente" ToRole="Posicao" />
+        </EntityType>
+        <EntityType Name="Contacto">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CC" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Descricao" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Contacto__CC__59904A2C" FromRole="Contacto" ToRole="Cliente" />
+          <NavigationProperty Name="Contacto_Telefonico" Relationship="Self.FK__Contacto___Codig__5C6CB6D7" FromRole="Contacto" ToRole="Contacto_Telefonico" />
+          <NavigationProperty Name="Contacto_Email" Relationship="Self.FK__Contacto___Codig__5F492382" FromRole="Contacto" ToRole="Contacto_Email" />
+        </EntityType>
+        <EntityType Name="Contacto_Email">
+          <Key>
+            <PropertyRef Name="Endereco" />
+          </Key>
+          <Property Name="Endereco" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Codigo_Contacto" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Contacto" Relationship="Self.FK__Contacto___Codig__5F492382" FromRole="Contacto_Email" ToRole="Contacto" />
+        </EntityType>
+        <EntityType Name="Contacto_Telefonico">
+          <Key>
+            <PropertyRef Name="Numero" />
+          </Key>
+          <Property Name="Numero" Type="Decimal" Precision="9" Scale="0" Nullable="false" />
+          <Property Name="Indicativo" Type="Decimal" Precision="3" Scale="0" />
+          <Property Name="Codigo_Contacto" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Contacto" Relationship="Self.FK__Contacto___Codig__5C6CB6D7" FromRole="Contacto_Telefonico" ToRole="Contacto" />
+        </EntityType>
+        <EntityType Name="Instrumento_Financeiro">
+          <Key>
+            <PropertyRef Name="ISIN" />
+          </Key>
+          <Property Name="ISIN" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CodigoMercado" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="Descricao" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ValorAtual" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorVariacaoDiaria" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PercentagemVariacaoDiaria" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorVariacao6Meses" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PercentagemVariacao6Meses" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Media6Meses" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Mercado_Financeiro" Relationship="Self.FK__Instrumen__Codig__4F12BBB9" FromRole="Instrumento_Financeiro" ToRole="Mercado_Financeiro" />
+          <NavigationProperty Name="Posicao" Relationship="Self.FK__Posicao__ISIN__6225902D" FromRole="Instrumento_Financeiro" ToRole="Posicao" />
+          <NavigationProperty Name="Registo" Relationship="Self.FK__Registo__ISIN__51EF2864" FromRole="Instrumento_Financeiro" ToRole="Registo" />
+        </EntityType>
+        <EntityType Name="Mercado_Financeiro">
+          <Key>
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Codigo" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Descricao" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Instrumento_Financeiro" Relationship="Self.FK__Instrumen__Codig__4F12BBB9" FromRole="Mercado_Financeiro" ToRole="Instrumento_Financeiro" />
+          <NavigationProperty Name="Valores_Mercado" Relationship="Self.FK__Valores_M__Codig__467D75B8" FromRole="Mercado_Financeiro" ToRole="Valores_Mercado" />
+        </EntityType>
+        <EntityType Name="Posicao">
+          <Key>
+            <PropertyRef Name="ISIN" />
+            <PropertyRef Name="CC" />
+          </Key>
+          <Property Name="ISIN" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CC" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Quantidade" Type="Double" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK__Posicao__CC__6319B466" FromRole="Posicao" ToRole="Cliente" />
+          <NavigationProperty Name="Instrumento_Financeiro" Relationship="Self.FK__Posicao__ISIN__6225902D" FromRole="Posicao" ToRole="Instrumento_Financeiro" />
+        </EntityType>
+        <EntityType Name="Registo">
+          <Key>
+            <PropertyRef Name="ISIN" />
+            <PropertyRef Name="Dia" />
+          </Key>
+          <Property Name="ISIN" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Dia" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="ValorAbertura" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorFecho" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorMaximo" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorMinimo" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="HoraFecho" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Instrumento_Financeiro" Relationship="Self.FK__Registo__ISIN__51EF2864" FromRole="Registo" ToRole="Instrumento_Financeiro" />
+        </EntityType>
+        <EntityType Name="Triplos">
+          <Key>
+            <PropertyRef Name="Identificacao" />
+            <PropertyRef Name="Dia" />
+          </Key>
+          <Property Name="Identificacao" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Dia" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Valor" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Observado" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="Valores_Mercado">
+          <Key>
+            <PropertyRef Name="Dia" />
+            <PropertyRef Name="Codigo" />
+          </Key>
+          <Property Name="Dia" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Codigo" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ValorIndice" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="ValorAbertura" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="VariacaoDiaria" Type="Decimal" Precision="19" Scale="4" />
+          <NavigationProperty Name="Mercado_Financeiro" Relationship="Self.FK__Valores_M__Codig__467D75B8" FromRole="Valores_Mercado" ToRole="Mercado_Financeiro" />
+        </EntityType>
+        <EntityType Name="resumo_portfolios">
+          <Key>
+            <PropertyRef Name="NomePortfolio" />
+          </Key>
+          <Property Name="NomeCliente" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NomePortfolio" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NumeroIstrumentos" Type="Int32" />
+          <Property Name="ValorTotalPortfolio" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
+        <Association Name="FK__Contacto__CC__59904A2C">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="CC" />
+            </Principal>
+            <Dependent Role="Contacto">
+              <PropertyRef Name="CC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posicao__CC__6319B466">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+          <End Role="Posicao" Type="Self.Posicao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="CC" />
+            </Principal>
+            <Dependent Role="Posicao">
+              <PropertyRef Name="CC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacto___Codig__5C6CB6D7">
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="0..1" />
+          <End Role="Contacto_Telefonico" Type="Self.Contacto_Telefonico" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contacto">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Contacto_Telefonico">
+              <PropertyRef Name="Codigo_Contacto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacto___Codig__5F492382">
+          <End Role="Contacto" Type="Self.Contacto" Multiplicity="0..1" />
+          <End Role="Contacto_Email" Type="Self.Contacto_Email" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Contacto">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Contacto_Email">
+              <PropertyRef Name="Codigo_Contacto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Instrumen__Codig__4F12BBB9">
+          <End Role="Mercado_Financeiro" Type="Self.Mercado_Financeiro" Multiplicity="0..1" />
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mercado_Financeiro">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Instrumento_Financeiro">
+              <PropertyRef Name="CodigoMercado" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Posicao__ISIN__6225902D">
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="1" />
+          <End Role="Posicao" Type="Self.Posicao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instrumento_Financeiro">
+              <PropertyRef Name="ISIN" />
+            </Principal>
+            <Dependent Role="Posicao">
+              <PropertyRef Name="ISIN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Registo__ISIN__51EF2864">
+          <End Role="Instrumento_Financeiro" Type="Self.Instrumento_Financeiro" Multiplicity="1" />
+          <End Role="Registo" Type="Self.Registo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instrumento_Financeiro">
+              <PropertyRef Name="ISIN" />
+            </Principal>
+            <Dependent Role="Registo">
+              <PropertyRef Name="ISIN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Valores_M__Codig__467D75B8">
+          <End Role="Mercado_Financeiro" Type="Self.Mercado_Financeiro" Multiplicity="1" />
+          <End Role="Valores_Mercado" Type="Self.Valores_Mercado" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mercado_Financeiro">
+              <PropertyRef Name="Codigo" />
+            </Principal>
+            <Dependent Role="Valores_Mercado">
+              <PropertyRef Name="Codigo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PilimEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+          <EntitySet Name="Contacto" EntityType="Self.Contacto" />
+          <EntitySet Name="Contacto_Email" EntityType="Self.Contacto_Email" />
+          <EntitySet Name="Contacto_Telefonico" EntityType="Self.Contacto_Telefonico" />
+          <EntitySet Name="Instrumento_Financeiro" EntityType="Self.Instrumento_Financeiro" />
+          <EntitySet Name="Mercado_Financeiro" EntityType="Self.Mercado_Financeiro" />
+          <EntitySet Name="Posicao" EntityType="Self.Posicao" />
+          <EntitySet Name="Registo" EntityType="Self.Registo" />
+          <EntitySet Name="Triplos" EntityType="Self.Triplos" />
+          <EntitySet Name="Valores_Mercado" EntityType="Self.Valores_Mercado" />
+          <EntitySet Name="resumo_portfolios" EntityType="Self.resumo_portfolios" />
+          <AssociationSet Name="FK__Contacto__CC__59904A2C" Association="Self.FK__Contacto__CC__59904A2C">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Contacto" EntitySet="Contacto" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posicao__CC__6319B466" Association="Self.FK__Posicao__CC__6319B466">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Posicao" EntitySet="Posicao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacto___Codig__5C6CB6D7" Association="Self.FK__Contacto___Codig__5C6CB6D7">
+            <End Role="Contacto" EntitySet="Contacto" />
+            <End Role="Contacto_Telefonico" EntitySet="Contacto_Telefonico" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacto___Codig__5F492382" Association="Self.FK__Contacto___Codig__5F492382">
+            <End Role="Contacto" EntitySet="Contacto" />
+            <End Role="Contacto_Email" EntitySet="Contacto_Email" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Instrumen__Codig__4F12BBB9" Association="Self.FK__Instrumen__Codig__4F12BBB9">
+            <End Role="Mercado_Financeiro" EntitySet="Mercado_Financeiro" />
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Posicao__ISIN__6225902D" Association="Self.FK__Posicao__ISIN__6225902D">
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+            <End Role="Posicao" EntitySet="Posicao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Registo__ISIN__51EF2864" Association="Self.FK__Registo__ISIN__51EF2864">
+            <End Role="Instrumento_Financeiro" EntitySet="Instrumento_Financeiro" />
+            <End Role="Registo" EntitySet="Registo" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Valores_M__Codig__467D75B8" Association="Self.FK__Valores_M__Codig__467D75B8">
+            <End Role="Mercado_Financeiro" EntitySet="Mercado_Financeiro" />
+            <End Role="Valores_Mercado" EntitySet="Valores_Mercado" />
+          </AssociationSet>
+          <FunctionImport Name="listar_portfolio" IsComposable="true" ReturnType="Collection(PilimModel.listar_portfolio_Result)">
+          <Parameter Name="nomeP" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="p_actualizaValorDiario" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PilimModelStoreContainer" CdmEntityContainer="PilimEntities">
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="PilimModel.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="CC" ColumnName="CC" />
+                <ScalarProperty Name="NIF" ColumnName="NIF" />
+                <ScalarProperty Name="NomeCliente" ColumnName="NomeCliente" />
+                <ScalarProperty Name="NomePortfolio" ColumnName="NomePortfolio" />
+                <ScalarProperty Name="ValorTotalPortfolio" ColumnName="ValorTotalPortfolio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contacto">
+            <EntityTypeMapping TypeName="PilimModel.Contacto">
+              <MappingFragment StoreEntitySet="Contacto">
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="CC" ColumnName="CC" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contacto_Email">
+            <EntityTypeMapping TypeName="PilimModel.Contacto_Email">
+              <MappingFragment StoreEntitySet="Contacto_Email">
+                <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+                <ScalarProperty Name="Codigo_Contacto" ColumnName="Codigo_Contacto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contacto_Telefonico">
+            <EntityTypeMapping TypeName="PilimModel.Contacto_Telefonico">
+              <MappingFragment StoreEntitySet="Contacto_Telefonico">
+                <ScalarProperty Name="Numero" ColumnName="Numero" />
+                <ScalarProperty Name="Indicativo" ColumnName="Indicativo" />
+                <ScalarProperty Name="Codigo_Contacto" ColumnName="Codigo_Contacto" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Instrumento_Financeiro">
+            <EntityTypeMapping TypeName="PilimModel.Instrumento_Financeiro">
+              <MappingFragment StoreEntitySet="Instrumento_Financeiro">
+                <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+                <ScalarProperty Name="CodigoMercado" ColumnName="CodigoMercado" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+                <ScalarProperty Name="ValorAtual" ColumnName="ValorAtual" />
+                <ScalarProperty Name="ValorVariacaoDiaria" ColumnName="ValorVariacaoDiaria" />
+                <ScalarProperty Name="PercentagemVariacaoDiaria" ColumnName="PercentagemVariacaoDiaria" />
+                <ScalarProperty Name="ValorVariacao6Meses" ColumnName="ValorVariacao6Meses" />
+                <ScalarProperty Name="PercentagemVariacao6Meses" ColumnName="PercentagemVariacao6Meses" />
+                <ScalarProperty Name="Media6Meses" ColumnName="Media6Meses" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mercado_Financeiro">
+            <EntityTypeMapping TypeName="PilimModel.Mercado_Financeiro">
+              <MappingFragment StoreEntitySet="Mercado_Financeiro">
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Posicao">
+            <EntityTypeMapping TypeName="PilimModel.Posicao">
+              <MappingFragment StoreEntitySet="Posicao">
+                <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+                <ScalarProperty Name="CC" ColumnName="CC" />
+                <ScalarProperty Name="Quantidade" ColumnName="Quantidade" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Registo">
+            <EntityTypeMapping TypeName="PilimModel.Registo">
+              <MappingFragment StoreEntitySet="Registo">
+                <ScalarProperty Name="ISIN" ColumnName="ISIN" />
+                <ScalarProperty Name="Dia" ColumnName="Dia" />
+                <ScalarProperty Name="ValorAbertura" ColumnName="ValorAbertura" />
+                <ScalarProperty Name="ValorFecho" ColumnName="ValorFecho" />
+                <ScalarProperty Name="ValorMaximo" ColumnName="ValorMaximo" />
+                <ScalarProperty Name="ValorMinimo" ColumnName="ValorMinimo" />
+                <ScalarProperty Name="HoraFecho" ColumnName="HoraFecho" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Triplos">
+            <EntityTypeMapping TypeName="PilimModel.Triplos">
+              <MappingFragment StoreEntitySet="Triplos">
+                <ScalarProperty Name="Identificacao" ColumnName="Identificacao" />
+                <ScalarProperty Name="Dia" ColumnName="Dia" />
+                <ScalarProperty Name="Valor" ColumnName="Valor" />
+                <ScalarProperty Name="Observado" ColumnName="Observado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Valores_Mercado">
+            <EntityTypeMapping TypeName="PilimModel.Valores_Mercado">
+              <MappingFragment StoreEntitySet="Valores_Mercado">
+                <ScalarProperty Name="Dia" ColumnName="Dia" />
+                <ScalarProperty Name="Codigo" ColumnName="Codigo" />
+                <ScalarProperty Name="ValorIndice" ColumnName="ValorIndice" />
+                <ScalarProperty Name="ValorAbertura" ColumnName="ValorAbertura" />
+                <ScalarProperty Name="VariacaoDiaria" ColumnName="VariacaoDiaria" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="resumo_portfolios">
+            <EntityTypeMapping TypeName="PilimModel.resumo_portfolios">
+              <MappingFragment StoreEntitySet="resumo_portfolios">
+                <ScalarProperty Name="NomeCliente" ColumnName="NomeCliente" />
+                <ScalarProperty Name="NomePortfolio" ColumnName="NomePortfolio" />
+                <ScalarProperty Name="NumeroIstrumentos" ColumnName="NumeroIstrumentos" />
+                <ScalarProperty Name="ValorTotalPortfolio" ColumnName="ValorTotalPortfolio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionName="PilimModel.Store.listar_portfolio" FunctionImportName="listar_portfolio">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="PilimModel.listar_portfolio_Result">
+                <ScalarProperty Name="ValorAtual" ColumnName="ValorAtual" />
+                <ScalarProperty Name="isdn" ColumnName="isdn" />
+                <ScalarProperty Name="quantidade" ColumnName="quantidade" />
+                <ScalarProperty Name="PercentagemVariacao" ColumnName="PercentagemVariacao" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="p_actualizaValorDiario" FunctionName="PilimModel.Store.p_actualizaValorDiario" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

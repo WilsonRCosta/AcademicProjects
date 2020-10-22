@@ -1,0 +1,357 @@
+{
+	"info": {
+		"_postman_id": "2d692b09-65fd-4aea-b394-0e31066abc70",
+		"name": "ElasticSearchQueries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Users",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\" : \"david\",\n\t\"password\": \"david\",\n\t\"groups\":[]\n}"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_doc?refresh=true",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_doc"
+					],
+					"query": [
+						{
+							"key": "refresh",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9200/users/_search",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Detail",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"size\": 1,\r\n\t\"query\": {\r\n\t\t\"match\": {\r\n\t\t\t\"username\": \"bala david\"\r\n\t\t}\r\n\t}\r\n}\r\n"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_search",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"query\": {\n        \"match\": {\n            \"id\": \"s3w7stlsjzem8qqw4l3d2s\"\n        }\n    },\n    \"script\":{\n        \"lang\": \"painless\",\n        \"inline\": \"ctx._source.groups.add(params.newGroup)\",\n        \"params\": {\n            \"newGroup\": {\n                \"groupName\": \"Grupo_David_Wilson\",\n                \"games\": [],\n                \"description\": \"O_grupo_dos_mais_sexy\"\n            }\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_doc/_update_by_query?refresh=true",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_doc",
+						"_update_by_query"
+					],
+					"query": [
+						{
+							"key": "refresh",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Grupo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"query\":{\n\t\t\"match\":{\n\t\t\t\"id\": \"s3w7stlsjzem8qqw4l3d2s\"\n\t\t}\n\t},\n\t\"script\":{\n\t\t\"source\": \"for(int i = 0; i < ctx._source.groups.size(); i++){ if(ctx._source.groups[i].groupName == params.oldGroupName) ctx._source.groups[i].groupName = params.newGroupName; ctx._source.groups[i].desc = params.newDesc}\",\n\t\t\"params\":{\n\t\t\t\"oldGroupName\":\"Grupo_David_Wilson\",\n\t\t\t\"newGroupName\":\"Favoritos do David Alterado\",\n\t\t\t\"newDesc\":\"Alterei 2\"\n\t\t}\n\t}\n}"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_doc/_update_by_query",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_doc",
+						"_update_by_query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Groups",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"query\" : {\r\n   \t\t\"match\":{\r\n   \t\t\t\"id\": \"s3w7stlsjzem8qqw4l3d2s\"\r\n   \t\t}\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9200/users/_search",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Group Details",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"size\": 1,\r\n\t\"query\": {\r\n\t\t\"match\": {\r\n\t\t\t\"id\": \"s3w7stlsjzem8qqw4l3d2s\"\r\n\t\t},\r\n\t\t\"query\":{\r\n\t\t\t\"match\":{\r\n\t\t\t\t\"ctx._source.groups.groupName\": \"Grupo_David_Wilson\"\r\n        \t}\r\n\t\t}\r\n\t}\r\n}\r\n"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_search",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_search"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Game into Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"query\": {\r\n\t    \"match\": {\r\n\t        \"id\": \"xsi9m4szcvguedw1dxon0s\"\r\n\t    }\r\n\t},\r\n\t\"script\": {\r\n\t    \"lang\": \"painless\",\r\n\t    \"inline\": \"for (int i = 0; i < ctx._source.groups.size(); i++){if (ctx._source.groups[i].groupName == params.groupName) ctx._source.groups[i].games.add(params.newGame);}\",\r\n\t    \"params\": {\r\n\t        \"groupName\": \"Grupo_David_Wilson\",\r\n\t        \"newGame\": \"Gloomhaven\"\r\n\t    }\r\n\t}\r\n}"
+				},
+				"url": {
+					"raw": "localhost:9200/users/_doc/_update_by_query",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users",
+						"_doc",
+						"_update_by_query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Game from Group",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"query\": {\r\n\t\t\"match\": {\r\n\t\t\t\"groupName\": \"Favoritos do David Alterado\"\r\n\t\t}\r\n\t},\r\n  \"script\": \"item_to_remove = null; ctx._source.games.each { game -> if (game.GameName == GameName) { item_to_remove=game; } };\",\r\n  \"params\": {\"GameName\": \"Spirit Island\"}\r\n}\r\n"
+				},
+				"url": {
+					"raw": "localhost:9200/groups/_doc/_update_by_query",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"groups",
+						"_doc",
+						"_update_by_query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Grupos",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:9200/groups",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Users",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:9200/users",
+					"host": [
+						"localhost"
+					],
+					"port": "9200",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

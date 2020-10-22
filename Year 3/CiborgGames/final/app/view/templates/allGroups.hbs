@@ -1,0 +1,68 @@
+<div class=body-allGroups>
+    <h2 class="groups-header">
+        <div class="search-container">
+            <p style="float:left;margin-left: 10vw;">{{title}}</p>
+            <form class="form-inline md-form mr-auto mb-4" style="float:right;padding-right: 10vw;" id="groupsByName">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search Group..." aria-label="Search" id="inputGroupName">
+                <button  type="submit"><i class="fa fa-search" style="size: 10px 10px"></i></button>
+            </form>
+        </div>
+    </h2>
+
+    <br><br><br><br>
+
+    <div class="container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Group Name</th>
+                <th scope="col">Games</th>
+                <th scope="col">Edit</th>
+            </tr>
+            </thead>
+            <tbody>
+                {{#each groups}}
+                    <tr>
+                        <th scope="row">{{inc @index}}</th>
+                        <td>
+                            <a style="color:black" href="#groupDetails/{{groupName}}" title="{{groupName}}">
+                                    <strong>{{groupName}}</strong>
+                            </a>
+                                <br>
+                                    <i><small>{{description}}</small></i>
+                        </td>
+                        <td>{{games.length}}</td>
+                        <td>
+                            <button style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;" id="button-edition-{{@index}}" type="click">
+                                <img src="{{../editImg}}" alt="Edit Group">
+                            </button>
+                        </td>
+                        <td class="edition">
+                            <div class="search-container" style="display: none" id="divEditGroup{{@index}}">
+                                <form id="editGroup{{@index}}" class="form-inline md-form mr-auto mb-4" action="/groups/" method="PUT">
+                                    <span style="font-family: Abel">Edition Mode</span>
+                                    <input id="editInGName{{@index}}" class="form-control mr-sm-2" type="text" style="margin-left: 5px" placeholder="Name.." aria-label="Name" >
+                                    <input id="editInGDesc{{@index}}" class="form-control mr-sm-2" type="text" style="margin-left: 5px" placeholder="Description.." aria-label="Description" >
+                                    <button class="btn btn-dark" type="submit">Submit</button>
+                                    <button style="background-color: transparent;background-repeat: no-repeat;border: none;cursor: pointer;overflow: hidden;outline: none;" id="no-button-edition-{{@index}}" type="click">
+                                        <img src="{{../disableEditImg}}" alt="No Edit Group">
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+        <div class="search-container" id="divCreateGroup">
+            <form id="createGroup" class="form-inline md-form mr-auto mb-4" action="/groups/" method="POST">
+                <span style="font-family: Abel">Insert new group</span>
+                <input id="createInGName" class="form-control mr-sm-2" type="text" style="margin-left: 5px" placeholder="Name.." aria-label="Name" >
+                <input id="createInGDesc" class="form-control mr-sm-2" type="text" style="margin-left: 5px" placeholder="Description.." aria-label="Description">
+                <button class="btn btn-dark" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

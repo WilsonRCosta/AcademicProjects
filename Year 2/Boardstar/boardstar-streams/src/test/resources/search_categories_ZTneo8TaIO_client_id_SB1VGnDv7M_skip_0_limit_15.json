@@ -1,0 +1,1412 @@
+{
+  "games": [
+    {
+      "id": "kPDxpJZ8PD",
+      "name": "Spirit Island",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 13,
+      "description": "Powerful Spirits have existed on this isolated island for time immemorial. They are both part of the natural world and - at the same time - something beyond nature. Native Islanders, known as the Dahan, have learned how to co-exist with the spirits, but with a healthy dose of fear and reverence. However, now, the island has been &quot;discovered&quot; by invaders from a far-off land. These would-be colonists are taking over the land and upsetting the natural balance, destroying the presence of Spirits as they go. As Spirits, you must grow in power and work together to drive the invaders from your island... before it's too late!",
+      "description_preview": "Powerful Spirits have existed on this isolated island for time immemorial. They are both part of the natural world and - at the same time - something beyond nature. Native Islanders, known as the Dahan, have learned how to co-exist with the spirits, but with a healthy dose of fear and reverence. However, now, the island has been \"discovered\" by invaders from a far-off land. These would-be colonists are taking over the land and upsetting the natural balance, destroying the presence of Spirits as they go. As Spirits, you must grow in power and work together to drive the invaders from your island... before it's too late!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254941010-61PJxjjnbfL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254941010-61PJxjjnbfL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/kPDxpJZ8PD/spirit-island",
+      "price": "52.99",
+      "msrp": "79.95",
+      "discount": "0.34",
+      "primary_publisher": "Greater Than Games",
+      "publishers": [
+        "Greater Than Games"
+      ],
+      "mechanics": [
+        {
+          "id": "PGjmKGi26h"
+        },
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        },
+        {
+          "id": "DEvPj5twid"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "nWDac9tQzt"
+        },
+        {
+          "id": "gsekjrPJz0"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "MHkqIVxwtx"
+        },
+        {
+          "id": "nuHYRFmMjU"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        },
+        {
+          "id": "buDTYyPw4D"
+        }
+      ],
+      "designers": [
+        "R. Eric Reuss"
+      ],
+      "developers": [],
+      "artists": [
+        "Jason Behnke",
+        "Kat G Bermelin",
+        "Loïc Billiau",
+        "Cari Corene",
+        "Lucas Durham",
+        "Rocky Hammer",
+        "Sydni Kruger",
+        "Nolan Nasser",
+        "Jorge Ramos",
+        "Adam Rebottaro",
+        "Moro Rogers",
+        "Graham Sternberg",
+        "Shane Tyree",
+        "Joshua Wright (I)"
+      ],
+      "names": [
+        "Spirit Island (5th Edition) (Ding & Dent)",
+        "Spirit Island (Ding & Dent)",
+        "Spirit Island"
+      ],
+      "num_user_ratings": 218,
+      "average_user_rating": 3.838720740804252,
+      "official_url": "https://store.greaterthangames.com/spirit-island.html?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://drive.google.com/file/d/0B9kp130SgLtdcGxTcTFodlhaWDg/view",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 11.6,
+      "size_width": 3,
+      "size_depth": 11.6,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 1894,
+      "reddit_week_count": 10,
+      "reddit_day_count": 12,
+      "historical_low_price": 39.97,
+      "historical_low_date": {
+        "$date": "2019-12-27T11:56:05.953Z"
+      }
+    },
+    {
+      "id": "RLlDWHh7hR",
+      "name": "Gloomhaven",
+      "year_published": 2017,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 150,
+      "min_age": 12,
+      "description": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world.<br />\r\n<br />\r\nPlayers must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.<br />\r\n<br />\r\nThis is a legacy game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a &quot;Choose Your Own Adventure&quot; book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.",
+      "description_preview": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. \r\n \r\nPlayers must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make. \r\n \r\nThis is a legacy game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a \"Choose Your Own Adventure\" book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254920151-51ulRXlJ7LL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254920151-51ulRXlJ7LL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/RLlDWHh7hR/gloomhaven",
+      "price": "229.97",
+      "msrp": "139.99",
+      "discount": "-0.64",
+      "primary_publisher": "Cephalofair Games",
+      "publishers": [
+        "Cephalofair Games"
+      ],
+      "mechanics": [
+        {
+          "id": "xuphiSlrxI"
+        },
+        {
+          "id": "9mNukNBxfZ"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "DwmsVEvNVd"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "EVeAdboGUA"
+        },
+        {
+          "id": "za4PP1LH00"
+        },
+        {
+          "id": "GUoWg3Mfh5"
+        },
+        {
+          "id": "XM2FYZmBHH"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "O0ogzwLUe8"
+        }
+      ],
+      "designers": [
+        "Isaac Childres"
+      ],
+      "developers": [],
+      "artists": [
+        "Alexandr Elichev",
+        "Josh T. McDowell",
+        "Alvaro Nebot"
+      ],
+      "names": [
+        "Gloomhaven",
+        "Gloomhaven",
+        "Gloomhaven",
+        "Gloomhaven",
+        "Gloomhaven",
+        "Gloomhaven"
+      ],
+      "num_user_ratings": 244,
+      "average_user_rating": 4.081967213114756,
+      "official_url": "http://www.cephalofair.com/gloomhaven?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://online.flippingbook.com/view/598058/",
+      "weight_amount": 21.6,
+      "weight_units": "lbs",
+      "size_height": 16.2,
+      "size_width": 7.5,
+      "size_depth": 11.8,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "kIVSjvh0fG"
+        }
+      ],
+      "reddit_all_time_count": 1665,
+      "reddit_week_count": 14,
+      "reddit_day_count": 17,
+      "historical_low_price": 80.75,
+      "historical_low_date": {
+        "$date": "2019-07-15T05:07:39.057Z"
+      }
+    },
+    {
+      "id": "BBg2uXXdB8",
+      "name": "Kingdomino",
+      "year_published": 2016,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 15,
+      "max_playtime": 20,
+      "min_age": 8,
+      "description": "Kingdomino is a 2-4 player strategy game that plays like dominoes with a kingdom-building twist. Each turn you will connect a new domino to your existing kingdom, making sure that at least one of its sides connects to a matching element already in play.<br />\r\n<br />\r\nMake sure to include dominoes with crowns on them, because at the end of the game you will score points equal to the total number of  matching elements multiplied by the number of crowns.",
+      "description_preview": "Kingdomino is a 2-4 player strategy game that plays like dominoes with a kingdom-building twist. Each turn you will connect a new domino to your existing kingdom, making sure that at least one of its sides connects to a matching element already in play. \r\n \r\nMake sure to include dominoes with crowns on them, because at the end of the game you will score points equal to the total number of  matching elements multiplied by the number of crowns.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254188772-515tbFJ5C8L.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188772-515tbFJ5C8L.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/BBg2uXXdB8/kingdomino",
+      "price": "14.00",
+      "msrp": "19.99",
+      "discount": "0.30",
+      "primary_publisher": "Blue Orange Games",
+      "publishers": [
+        "Blue Orange Games",
+        "Fantasmagoria",
+        "Feelindigo",
+        "FoxMind Israel",
+        "Games Factory Publishing",
+        "Gém Klub Kft.",
+        "Le Grand Massif",
+        "Happy Baobab",
+        "Kaissa Chess & Games",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "MINDOK",
+        "PaperGames (III)",
+        "Pegasus Spiele",
+        "Pridemage Games",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "テンデイズゲームズ (Ten Days Games)",
+        "White Goblin Games"
+      ],
+      "mechanics": [
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "8PN2HE86wg"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ODWOjWAJj3"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "buDTYyPw4D"
+        }
+      ],
+      "designers": [
+        "Bruno Cathala"
+      ],
+      "developers": [],
+      "artists": [
+        "Cyril Bouquet"
+      ],
+      "names": [
+        "Giant Kingdomino",
+        "Kingdomino",
+        "Kingdomino (Giant Version)"
+      ],
+      "num_user_ratings": 280,
+      "average_user_rating": 3.357132942559261,
+      "official_url": "http://www.blueorangegames.com/index.php/games/king-domino?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://www.blueorangegames.com/administrator/components/com_bogames/files/rules/cfa0f38157341a002eab1100aab478ea-Kingdomino-Rules-US-2nd-Edition.pdf",
+      "weight_amount": 1,
+      "weight_units": "lb",
+      "size_height": 2,
+      "size_width": 7.9,
+      "size_depth": 7.9,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 795,
+      "reddit_week_count": 4,
+      "reddit_day_count": 4,
+      "historical_low_price": 8.99,
+      "historical_low_date": {
+        "$date": "2019-09-14T10:03:22.306Z"
+      }
+    },
+    {
+      "id": "exdy1Z2bSC",
+      "name": "Mage Knight",
+      "year_published": 2011,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 240,
+      "min_age": 14,
+      "description": "Designed by one of world’s leading game designers, Vlaada Chvátil, WizKids is pleased to announce the Mage Knight Board Game: Ultimate Edition is arriving this fall! Current or new fans can find all of the released content plus a few new and exciting components all in one place!<br /><br />The critically acclaimed, award winning Mage Knight board game combines elements of RPGs, deckbuilding, and traditional board games while capturing the rich history of the Mage Knight universe. Now, after wowing solo game players and groups of up to 5, this Ultimate Edition brings it all together in a self-contained gaming experience.<br /><br />The Ultimate Edition includes the original base game plus all three expansions: The Lost Legion, Krang, and Shades of Tezla. It features comprehensive integrated rules text, 5 all-new cards, alternate paint jobs, and a great price that can’t be beat!<br /><br />This is the Ultimate Edition fans have waited for!",
+      "description_preview": "Designed by one of world’s leading game designers, Vlaada Chvátil, WizKids is pleased to announce the Mage Knight Board Game: Ultimate Edition is arriving this fall! Current or new fans can find all of the released content plus a few new and exciting components all in one place!  The critically acclaimed, award winning Mage Knight board game combines elements of RPGs, deckbuilding, and traditional board games while capturing the rich history of the Mage Knight universe. Now, after wowing solo game players and groups of up to 5, this Ultimate Edition brings it all together in a self-contained gaming experience.  The Ultimate Edition includes the original base game plus all three expansions: The Lost Legion, Krang, and Shades of Tezla. It features comprehensive integrated rules text, 5 all-new cards, alternate paint jobs, and a great price that can’t be beat!  This is the Ultimate Edition fans have waited for!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545256271910",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545256271910",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1545256271910",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1545256271910",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1545256271910",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1545256271910",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1545256271910"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/exdy1Z2bSC/mage-knight",
+      "price": "56.79",
+      "msrp": "80.00",
+      "discount": "0.29",
+      "primary_publisher": "WizKids",
+      "publishers": [
+        "WizKids",
+        "Asmodee",
+        "Giochi Uniti",
+        "Intrafin Games",
+        "Lacerta",
+        "NECA",
+        "Pegasus Spiele",
+        "REXhry"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "U3zhCQH7Et"
+        },
+        {
+          "id": "8PN2HE86wg"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "yq6hVlbM2R"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "2Gu62aKdma"
+        }
+      ],
+      "designers": [
+        " Vlaada Chvátil"
+      ],
+      "developers": [],
+      "artists": [
+        " J. Lonnee",
+        "Chris Raimo",
+        "Milan Vavroň"
+      ],
+      "names": [
+        "Mage Knight Board Game",
+        "Mage Knight: Das Brettspiel ",
+        "NECA Mage Knight Board Game"
+      ],
+      "num_user_ratings": 133,
+      "average_user_rating": 3.534474484082548,
+      "official_url": "https://wizkids.com/mage-knight/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://wizkidsgames.com/wp-content/uploads/mage/MK_rulebook_ENG_searchable-mar2012.pdf",
+      "weight_amount": 3.8,
+      "weight_units": "lbs",
+      "size_height": 14,
+      "size_width": 10,
+      "size_depth": 3,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 646,
+      "reddit_week_count": 4,
+      "reddit_day_count": 7,
+      "historical_low_price": 54.99,
+      "historical_low_date": {
+        "$date": "2020-04-05T01:49:35.763Z"
+      }
+    },
+    {
+      "id": "q4g2Y5eqyZ",
+      "name": "The Fox in the Forest",
+      "year_published": 2017,
+      "min_players": 2,
+      "max_players": 2,
+      "min_playtime": 30,
+      "max_playtime": 45,
+      "min_age": 10,
+      "description": "<div><p>Enter the fairy tale world of <i>The Fox in the Forest</i>, a trick-taking game for two based on a story about a woodcutter's clever daughter who sets out on a journey to uncover the secrets of why monsters have begun to plague the kingdom. Players will play cards from their hands in a battle to take tricks and score points. <br /></p><p><br /><i>The Fox in the Forest</i> has a unique take on scoring that introduces tension into the trick-taking formula. If a player takes too many tricks, they are determined to be greedy and won't get any points at all. Do you want to win this trick and risk winning too many over the course of the round? What is your opponent trying to do?<br /></p><p><br />Each of the three suits has a set of special cards that have unique effects when played. The Swan allows you to lead the next trick even if you lose this one. The Fox lets you switch a card in your hand with the decree card setting the trump suit. The Woodcutter lets you swap a card in your hand with one of the extra cards. The Treasure will give the winner of a trick a free point for each 7 in the trick. The Witch will act as the trump suit if it's the only witch in the trick. Finally, the Monarch forces your opponent to play either the 1 of that suit, or their highest ranked card of that suit.</p>\r\n</div>",
+      "description_preview": "  Enter the fairy tale world of  The Fox in the Forest , a trick-taking game for two based on a story about a woodcutter's clever daughter who sets out on a journey to uncover the secrets of why monsters have begun to plague the kingdom. Players will play cards from their hands in a battle to take tricks and score points.      The Fox in the Forest  has a unique take on scoring that introduces tension into the trick-taking formula. If a player takes too many tricks, they are determined to be greedy and won't get any points at all. Do you want to win this trick and risk winning too many over the course of the round? What is your opponent trying to do?    Each of the three suits has a set of special cards that have unique effects when played. The Swan allows you to lead the next trick even if you lose this one. The Fox lets you switch a card in your hand with the decree card setting the trump suit. The Woodcutter lets you swap a card in your hand with one of the extra cards. The Treasure will give the winner of a trick a free point for each 7 in the trick. The Witch will act as the trump suit if it's the only witch in the trick. Finally, the Monarch forces your opponent to play either the 1 of that suit, or their highest ranked card of that suit. \r\n ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254190595-41CjWbXSlWL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254190595-41CjWbXSlWL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/q4g2Y5eqyZ/the-fox-in-the-forest",
+      "price": "10.99",
+      "msrp": "15.00",
+      "discount": "0.27",
+      "primary_publisher": "Renegade Game Studios",
+      "publishers": [
+        "Renegade Game Studios"
+      ],
+      "mechanics": [
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        "Joshua Buergel"
+      ],
+      "developers": [],
+      "artists": [
+        "Jennifer L. Meyer",
+        "Keith Pishnery"
+      ],
+      "names": [
+        "Fox in the Forest",
+        "The Fox in the Forest",
+        "The Fox in the Forest"
+      ],
+      "num_user_ratings": 132,
+      "average_user_rating": 3.4595857771261,
+      "official_url": "https://www.renegadegamestudios.com/products/the-fox-in-the-forest?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.dropbox.com/s/5vonqyghu0ofwom/the-fox-in-the-forest-rulebook.pdf?dl=0",
+      "weight_amount": 3.52,
+      "weight_units": "oz",
+      "size_height": 4.2,
+      "size_width": 1.2,
+      "size_depth": 6.2,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 581,
+      "reddit_week_count": 1,
+      "reddit_day_count": 1,
+      "historical_low_price": 10.29,
+      "historical_low_date": {
+        "$date": "2020-04-21T18:12:59.562Z"
+      }
+    },
+    {
+      "id": "axOr9uuOwN",
+      "name": "Lords of Waterdeep",
+      "year_published": 2012,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 60,
+      "max_playtime": 60,
+      "min_age": 12,
+      "description": "Waterdeep, the City of Splendors--the most resplendent jewel in the <b>Forgotten Realms</b>, and a den of political intrigue and shady back-alley dealings. In this game, the players are powerful lords vying for control of this great city. Its treasures and resources are ripe for the taking, and that which cannot be gained through trickery and negotiation must be taken by force!<br /><br /><i>Lords of Waterdeep</i> is a Euro-style board game for 2-5 players.<br /><br />Components:<br /> Game board<br /> Rulebook<br /> 5 card stock player mats<br /> 121 Intrigue, Quest, and Role cards<br /> 130 wooden cubes, pawns, and score pieces<br /> Wooden player markers<br /> Card stock tiles and tokens representing buildings, gold coins, and victory points",
+      "description_preview": "Waterdeep, the City of Splendors--the most resplendent jewel in the  Forgotten Realms , and a den of political intrigue and shady back-alley dealings. In this game, the players are powerful lords vying for control of this great city. Its treasures and resources are ripe for the taking, and that which cannot be gained through trickery and negotiation must be taken by force!   Lords of Waterdeep  is a Euro-style board game for 2-5 players.  Components:  Game board  Rulebook  5 card stock player mats  121 Intrigue, Quest, and Role cards  130 wooden cubes, pawns, and score pieces  Wooden player markers  Card stock tiles and tokens representing buildings, gold coins, and victory points",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538677407703",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538677407703",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1538677407703",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1538677407703",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1538677407703",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1538677407703",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1538677407703"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/axOr9uuOwN/lords-of-waterdeep",
+      "price": "34.99",
+      "msrp": "49.99",
+      "discount": "0.30",
+      "primary_publisher": "Wizards of the Coast",
+      "publishers": [
+        "Wizards of the Coast"
+      ],
+      "mechanics": [
+        {
+          "id": "lA3KUtVFCy"
+        },
+        {
+          "id": "T8JEFYwoqy"
+        },
+        {
+          "id": "fBOTEBUAmV"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ODWOjWAJj3"
+        },
+        {
+          "id": "ZEW7DPFAE6"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        "Peter Lee",
+        "Rodney Thompson"
+      ],
+      "developers": [],
+      "artists": [
+        "Eric Belisle",
+        "Steven Belledin",
+        "Zoltan Boros",
+        "Noah Bradley",
+        "Eric Deschamps",
+        "Wayne England",
+        "Tony Foti",
+        "Todd Harris",
+        "Ralph Horsley",
+        "Tyler Jacobson",
+        "Ron Lemen",
+        "Howard Lyon",
+        "Warren Mahy",
+        "Patrick McEvoy",
+        "Jim Nelson",
+        "William O'Connor",
+        "Adam Paquette",
+        "Lucio Parrillo",
+        "Dave Rapoza",
+        "Richard Sardinha",
+        "Mike Schley",
+        "Andrew Silver",
+        "Anne Stokes",
+        "Gábor Szikszai",
+        "Matias Tapia",
+        "Kevin Walker",
+        "Tyler Walpole",
+        "Eva Widermann",
+        "Eric Williams (I)",
+        "Matt Wilson",
+        "Sam Wood",
+        "Ben Wootten",
+        "James Zhang"
+      ],
+      "names": [
+        "Lords of Waterdeep: Dungeons & Dragons",
+        "Lords of Waterdeep"
+      ],
+      "num_user_ratings": 278,
+      "average_user_rating": 3.437765526077927,
+      "official_url": "http://dnd.wizards.com/products/tabletop-games/board-games/lords-waterdeep?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://media.dnd.wizards.com/DnD_LOW_Rulebook_EN_1.pdf",
+      "weight_amount": 3.7,
+      "weight_units": "lbs ",
+      "size_height": 14.1,
+      "size_width": 11.1,
+      "size_depth": 2.9,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "c69qmDp1SX"
+        }
+      ],
+      "reddit_all_time_count": 564,
+      "reddit_week_count": 3,
+      "reddit_day_count": 1,
+      "historical_low_price": 26.32,
+      "historical_low_date": {
+        "$date": "2019-06-22T20:24:07.077Z"
+      }
+    },
+    {
+      "id": "FldbgzsTYH",
+      "name": "Blood Rage",
+      "year_published": 2015,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 60,
+      "min_age": 14,
+      "description": "In Blood Rage, each player controls their own Viking clan's warriors, leader, and ship. Ragnarok has come, and it's the end of the world! It's the Vikings' last chance to go down in a blaze of glory and secure their place in Valhalla at Odin's side! For a Viking there are many pathways to glory. You can invade and pillage the land for its rewards, crush your opponents in epic battles, fulfil quests, increase your clan's stats, or even die gloriously either in battle or from Ragnarok, the ultimate inescapable doom. Most player strategies are guided by the cards drafted at the beginning of each of the three game rounds (or Ages). These &quot;Gods' Gifts&quot; grant you numerous boons for your clan including: increased Viking strength and devious battle strategies, upgrades to your clan, or even the aid of legendary creatures from Norse mythology. They may also include various quests, from dominating specific provinces, to having lots of your Vikings sent to Valhalla. Most of these cards are aligned with one of the Norse gods, hinting at the kind of strategy they support. For example, Thor gives more glory for victory in battle, Heimdall grants you foresight and surprises, Tyr strengthens you in battle, while the trickster Loki actually rewards you for losing battles, or punishes the winner. Players must choose their strategies carefully during the draft phase, but also be ready to adapt and react to their opponents' strategies as the action phase unfolds. Battles are decided not only by the strength of the figures involved, but also by cards played in secret. By observing your opponents' actions and allegiances to specific gods, you may predict what card they are likely to play, and plan accordingly. Winning battles is not always the best course of action, as the right card can get you even more rewards by being crushed. The only losing strategy in Blood Rage is to shy away from battle and a glorious death!",
+      "description_preview": "In Blood Rage, each player controls their own Viking clan's warriors, leader, and ship. Ragnarok has come, and it's the end of the world! It's the Vikings' last chance to go down in a blaze of glory and secure their place in Valhalla at Odin's side! For a Viking there are many pathways to glory. You can invade and pillage the land for its rewards, crush your opponents in epic battles, fulfil quests, increase your clan's stats, or even die gloriously either in battle or from Ragnarok, the ultimate inescapable doom. Most player strategies are guided by the cards drafted at the beginning of each of the three game rounds (or Ages). These \"Gods' Gifts\" grant you numerous boons for your clan including: increased Viking strength and devious battle strategies, upgrades to your clan, or even the aid of legendary creatures from Norse mythology. They may also include various quests, from dominating specific provinces, to having lots of your Vikings sent to Valhalla. Most of these cards are aligned with one of the Norse gods, hinting at the kind of strategy they support. For example, Thor gives more glory for victory in battle, Heimdall grants you foresight and surprises, Tyr strengthens you in battle, while the trickster Loki actually rewards you for losing battles, or punishes the winner. Players must choose their strategies carefully during the draft phase, but also be ready to adapt and react to their opponents' strategies as the action phase unfolds. Battles are decided not only by the strength of the figures involved, but also by cards played in secret. By observing your opponents' actions and allegiances to specific gods, you may predict what card they are likely to play, and plan accordingly. Winning battles is not always the best course of action, as the right card can get you even more rewards by being crushed. The only losing strategy in Blood Rage is to shy away from battle and a glorious death!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254863709-51lrsCB5VWL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254863709-51lrsCB5VWL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/FldbgzsTYH/blood-rage",
+      "price": "63.99",
+      "msrp": "79.99",
+      "discount": "0.20",
+      "primary_publisher": "CMON",
+      "publishers": [
+        "CMON"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "DEvPj5twid"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "upXZ8vNfNO"
+        },
+        {
+          "id": "MHkqIVxwtx"
+        }
+      ],
+      "designers": [
+        "Eric M. Lang"
+      ],
+      "developers": [],
+      "artists": [
+        "Henning Ludvigsen",
+        "Mike McVey",
+        "Adrian Smith"
+      ],
+      "names": [
+        "Blood Rage: Core Box"
+      ],
+      "num_user_ratings": 235,
+      "average_user_rating": 3.6196898665705004,
+      "official_url": "https://cmon.com/product/blood-rage/blood-rage?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://cmon-files.s3.amazonaws.com/BLR001-Rulebook.pdf",
+      "weight_amount": 4.5,
+      "weight_units": "lbs ",
+      "size_height": 4.1,
+      "size_width": 12.1,
+      "size_depth": 12.1,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 557,
+      "reddit_week_count": 4,
+      "reddit_day_count": 5,
+      "historical_low_price": 52.97,
+      "historical_low_date": {
+        "$date": "2019-11-28T11:25:11.373Z"
+      }
+    },
+    {
+      "id": "CT18FG3Yz5",
+      "name": "Aeon's End",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 75,
+      "min_age": 14,
+      "description": "The survivors of a long-ago invasion have taken refuge in the forgotten underground city of Gravehold. There, the desperate remnants of society have learned that the energy of the very breaches the beings use to attack them can be repurposed through various gems, transforming the malign energies within into beneficial spells and weapons to aid their last line of defense: the breach mages. \r\n\r\nAeon's End is a cooperative game that explores the deckbuilding genre with a number of innovative mechanisms, including a variable turn order system that simulates the chaos of an attack, and deck management rules that require careful planning with every discarded card. Players will struggle to defend Gravehold from The Nameless and their hordes using unique abilities, powerful spells, and, most importantly of all, their collective wits.",
+      "description_preview": "The survivors of a long-ago invasion have taken refuge in the forgotten underground city of Gravehold. There, the desperate remnants of society have learned that the energy of the very breaches the beings use to attack them can be repurposed through various gems, transforming the malign energies within into beneficial spells and weapons to aid their last line of defense: the breach mages. \r\n\r\nAeon's End is a cooperative game that explores the deckbuilding genre with a number of innovative mechanisms, including a variable turn order system that simulates the chaos of an attack, and deck management rules that require careful planning with every discarded card. Players will struggle to defend Gravehold from The Nameless and their hordes using unique abilities, powerful spells, and, most importantly of all, their collective wits.",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007215157",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007215157",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1541007215157",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1541007215157",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1541007215157",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1541007215157",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007215157"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/CT18FG3Yz5/aeons-end",
+      "price": "0.00",
+      "msrp": "49.99",
+      "discount": "0.00",
+      "primary_publisher": "Publisher Services Inc (PSI)",
+      "publishers": [
+        "Indie Boards & Cards"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "3B3QpKvXD3"
+        }
+      ],
+      "designers": [
+        "Kevin Riley"
+      ],
+      "developers": [],
+      "artists": [
+        "Gong Studios",
+        "Scott Hartman"
+      ],
+      "names": [
+        "Aeon's End (Second Edition)",
+        "aons end"
+      ],
+      "num_user_ratings": 78,
+      "average_user_rating": 3.7051282051282057,
+      "official_url": "http://www.indieboardsandcards.com/index.php/games/aeons-end/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://indieboardsandcards.com/wp-content/uploads/2017/06/Aeons_End_rulebook.pdf",
+      "weight_amount": 3.05,
+      "weight_units": "lbs",
+      "size_height": 11,
+      "size_width": 3.5,
+      "size_depth": 11,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "c69qmDp1SX"
+        }
+      ],
+      "reddit_all_time_count": 540,
+      "reddit_week_count": 6,
+      "reddit_day_count": 4,
+      "historical_low_price": 27.54,
+      "historical_low_date": {
+        "$date": "2020-04-17T02:08:57.281Z"
+      }
+    },
+    {
+      "id": "4G32qGJZWs",
+      "name": "Arkham Horror: The Card Game",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 2,
+      "min_playtime": 60,
+      "max_playtime": 120,
+      "min_age": 14,
+      "description": "&quot;Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you&quot;.",
+      "description_preview": "\"Something evil stirs in Arkham, and only you can stop it. Blurring the traditional lines between roleplaying and card game experiences, Arkham horror: the card game is the living card game of love craft I an mystery, monsters, and madness! you and your friend (or up to three friends with two core sets) become characters within the quiet new England town of Arkham. You have your talents, sure, but you also have your flaws. Perhaps you've dabbled a little too much in the writings of the Necronomicon, and its words continue to haunt you. Perhaps you feel compelled to cover up any signs of otherworldly evils, hampering your own investigations in order to protect the quiet confidence of the greater population. Perhaps you'll be scarred by your encounters with a ghoulish cult. No matter what compels you, no matter what haunts you, you'll find both your strengths and weaknesses reflected in your custom deck of cards, and these cards will be your resources as you work with your friends to unravel the world's most terrifying mysteries. Meanwhile, each of your adventures in Arkham horror LCG carries you deeper into mystery. You'll find cultists and foul rituals. You'll find haunted houses and strange creatures. And you may find signs of the ancient ones straining against the barriers to our world… the basic mode of play in Arkham LCG is not the adventure, but the campaign. You might be scarred by your adventures, your sanity may be strained, and you may alter Arkham's landscape, burning buildings to the ground. All your choices and actions have consequences that reach far beyond the immediate resolution of the scenario at hand. And your actions may earn you valuable experience with which you can better prepare yourself for the adventures that still lie before you\".",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559257204681-515mUPxEHZL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559257204681-515mUPxEHZL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/4G32qGJZWs/arkham-horror-the-card-game",
+      "price": "35.54",
+      "msrp": "0.00",
+      "discount": "0.00",
+      "primary_publisher": "Fantasy Flight Publishing",
+      "publishers": [
+        "Fantasy Flight Publishing"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "WPytek5P8l"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "cAIkk5aLdQ"
+        }
+      ],
+      "designers": [
+        "Nate French",
+        "Matthew Newman"
+      ],
+      "developers": [],
+      "artists": [
+        " Christopher Hosch",
+        "Marcin Jakubowski",
+        "Ignacio Bazán Lazcano",
+        "Henning Ludvigsen",
+        "Mercedes Opheim",
+        "Zoe Robinson",
+        "Evan Simonet"
+      ],
+      "names": [
+        "Arkham Horror LCG",
+        "Arkham Horror: Das Kartenspiel "
+      ],
+      "num_user_ratings": 180,
+      "average_user_rating": 3.798737373737374,
+      "official_url": "https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.fantasyflightgames.com/filer_public/88/53/88538d11-5274-4b4a-ac8c-e8d758f71132/ahc01_learn_to_play_web.pdf",
+      "weight_amount": 2,
+      "weight_units": "lbs",
+      "size_height": 10,
+      "size_width": 2,
+      "size_depth": 10,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "L7kGfX7JlX"
+        },
+        {
+          "id": "j4bHFijdvS"
+        }
+      ],
+      "reddit_all_time_count": 480,
+      "reddit_week_count": 1,
+      "reddit_day_count": 3,
+      "historical_low_price": 18.39,
+      "historical_low_date": {
+        "$date": "2019-03-18T12:51:44.989Z"
+      }
+    },
+    {
+      "id": "sxLwbJHu77",
+      "name": "Terra Mystica",
+      "year_published": 2012,
+      "min_players": 2,
+      "max_players": 5,
+      "min_playtime": 60,
+      "max_playtime": 150,
+      "min_age": 12,
+      "description": "In Terra Mystica, players govern one of 14 factions seeking to terraform and colonize the landscape in their favor in order to build structures and preserve their race and culture. <br />\r\n<br />\r\nUpgrade structures to provide even more resources, like workers, priests, money, and power, erect temples to gain expanded influence in the four cults of Fire, Earth, Water, and Air, and fortify your stronghold to activate your group's special ability. Will your people prosper, persevere, and stand the test of time in Terra Mystica!",
+      "description_preview": "In Terra Mystica, players govern one of 14 factions seeking to terraform and colonize the landscape in their favor in order to build structures and preserve their race and culture.  \r\n \r\nUpgrade structures to provide even more resources, like workers, priests, money, and power, erect temples to gain expanded influence in the four cults of Fire, Earth, Water, and Air, and fortify your stronghold to activate your group's special ability. Will your people prosper, persevere, and stand the test of time in Terra Mystica!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254163037-613xYkP1f2BL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254163037-613xYkP1f2BL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/sxLwbJHu77/terra-mystica",
+      "price": "55.97",
+      "msrp": "79.99",
+      "discount": "0.30",
+      "primary_publisher": "Z-Man Games",
+      "publishers": [
+        "Z-Man Games"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "c6gkRM7rSy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "N0TkEGfEsF"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        "Jens Drögemüller",
+        "Helge Ostertag"
+      ],
+      "developers": [],
+      "artists": [
+        " Dennis Lohausen"
+      ],
+      "names": [
+        "Terra Mystica (Ding & Dent)"
+      ],
+      "num_user_ratings": 174,
+      "average_user_rating": 3.6954022988505755,
+      "official_url": "https://www.zmangames.com/en/products/terra-mystica/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://images-cdn.zmangames.com/us-east-1/filer_public/3c/b1/3cb1119d-85cb-4905-bfe6-d428a3024e1b/zm7240_terra_mystica_rules.pdf",
+      "weight_amount": 5.51,
+      "weight_units": "lbs ",
+      "size_height": 8.8,
+      "size_width": 3.6,
+      "size_depth": 12.4,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 464,
+      "reddit_week_count": 3,
+      "reddit_day_count": 4,
+      "historical_low_price": 49.64,
+      "historical_low_date": {
+        "$date": "2019-04-08T00:39:23.807Z"
+      }
+    },
+    {
+      "id": "sMTDq4Zeif",
+      "name": "Five Tribes",
+      "year_published": 2014,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 60,
+      "max_playtime": 90,
+      "min_age": 13,
+      "description": "Crossing into the Land of 1001 Nights, your caravan arrives at the fabled Sultanate of Naqala.<br />\r\n<br />\r\nThe old sultan just died and control of Naqala is up for grabs!<br />\r\n<br />\r\nThe oracles foretold of strangers who would maneuver the Five Tribes to gain influence over the legendary city-state.<br />\r\n<br />\r\nWill you fulfill the prophecy? Invoke the old Djinns, move the Tribes into position at the right time and the Sultanate may become yours!",
+      "description_preview": "Crossing into the Land of 1001 Nights, your caravan arrives at the fabled Sultanate of Naqala. \r\n \r\nThe old sultan just died and control of Naqala is up for grabs! \r\n \r\nThe oracles foretold of strangers who would maneuver the Five Tribes to gain influence over the legendary city-state. \r\n \r\nWill you fulfill the prophecy? Invoke the old Djinns, move the Tribes into position at the right time and the Sultanate may become yours!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254126853-611YVb5GCwL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254126853-611YVb5GCwL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/sMTDq4Zeif/five-tribes",
+      "price": "48.99",
+      "msrp": "60.00",
+      "discount": "0.18",
+      "primary_publisher": "Days of Wonder",
+      "publishers": [
+        "Days of Wonder"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "AZxlPpi5oq"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "MHkqIVxwtx"
+        }
+      ],
+      "designers": [
+        "Bruno Cathala"
+      ],
+      "developers": [],
+      "artists": [
+        "Clément Masson"
+      ],
+      "names": [
+        "Five Tribes"
+      ],
+      "num_user_ratings": 219,
+      "average_user_rating": 3.5930457178859894,
+      "official_url": "https://www.daysofwonder.com/five-tribes/en/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://ncdn0.daysofwonder.com/five-tribes/en/img/ft_rules_2015-06_en.pdf",
+      "weight_amount": 3.75,
+      "weight_units": "lbs ",
+      "size_height": 11.8,
+      "size_width": 11.8,
+      "size_depth": 3,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 452,
+      "reddit_week_count": 0,
+      "reddit_day_count": 1,
+      "historical_low_price": 36.99,
+      "historical_low_date": {
+        "$date": "2019-11-28T15:49:25.173Z"
+      }
+    },
+    {
+      "id": "2eoe0273LD",
+      "name": "Rising Sun",
+      "year_published": 2018,
+      "min_players": 3,
+      "max_players": 5,
+      "min_playtime": 90,
+      "max_playtime": 120,
+      "min_age": 13,
+      "description": "Lead your clan to honor and victory!<br />\r\n<br />\r\nWarring clans struggle for control of provinces in Feudal Japan; however, a conflict is not only won on the battlefield. Diplomacy and alliances will play a large part in winning the war.<br />\r\n<br />\r\nIn Rising Sun, from the acclaimed team that brought fans Blood Rage, players enter a fantastical version of Feudal Japan and control different Clans with unique abilities. They will engage in combat, make offerings to the Gods, and form and break treaties. After three hard fought years have passed, only the player who earned the most victory points will win. <br />\r\n<br />\r\n<b>Components:</b><br />\r\n<br />\r\n* Main Board (Map of Japan) <br />\r\n* 7 God Tiles 30 Coins<br />\r\n* 5 Clan Screens <br />\r\n* 10 Colored Clan Tokens<br />\r\n* 5 Clan Alliance Tokens<br />\r\n* 30 Bushi (Samurai) Figures (6 Per Clan)<br />\r\n* 15 Shinto (Monk) Figures (3 Per Clan)<br />\r\n* 5 Daimyo (Warlord) Figures (1 Per Clan)<br />\r\n* 8 Monster Figures 20 Strongholds Tokens (4 Per Clan)<br />\r\n* 10 Ships Tokens (2 Per Clan) <br />\r\n* 9 Political Mandate Cards<br />\r\n* 24 War Tokens<br />\r\n* 8 Numbered War Tokens<br />\r\n* 5 Two-Sided Reference Tiles <br />\r\n* Rulebook",
+      "description_preview": "Lead your clan to honor and victory! \r\n \r\nWarring clans struggle for control of provinces in Feudal Japan; however, a conflict is not only won on the battlefield. Diplomacy and alliances will play a large part in winning the war. \r\n \r\nIn Rising Sun, from the acclaimed team that brought fans Blood Rage, players enter a fantastical version of Feudal Japan and control different Clans with unique abilities. They will engage in combat, make offerings to the Gods, and form and break treaties. After three hard fought years have passed, only the player who earned the most victory points will win.  \r\n \r\n Components:  \r\n \r\n* Main Board (Map of Japan)  \r\n* 7 God Tiles 30 Coins \r\n* 5 Clan Screens  \r\n* 10 Colored Clan Tokens \r\n* 5 Clan Alliance Tokens \r\n* 30 Bushi (Samurai) Figures (6 Per Clan) \r\n* 15 Shinto (Monk) Figures (3 Per Clan) \r\n* 5 Daimyo (Warlord) Figures (1 Per Clan) \r\n* 8 Monster Figures 20 Strongholds Tokens (4 Per Clan) \r\n* 10 Ships Tokens (2 Per Clan)  \r\n* 9 Political Mandate Cards \r\n* 24 War Tokens \r\n* 8 Numbered War Tokens \r\n* 5 Two-Sided Reference Tiles  \r\n* Rulebook",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007861613",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007861613",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1541007861613",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1541007861613",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1541007861613",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1541007861613",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1541007861613"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/2eoe0273LD/rising-sun",
+      "price": "106.62",
+      "msrp": "99.99",
+      "discount": "-0.07",
+      "primary_publisher": "CMON",
+      "publishers": [
+        "CMON"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        },
+        {
+          "id": "DEvPj5twid"
+        },
+        {
+          "id": "T8JEFYwoqy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "PinhJrhnxU"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        },
+        {
+          "id": "jZEDOpx07e"
+        }
+      ],
+      "designers": [
+        " Eric M. Lang"
+      ],
+      "developers": [],
+      "artists": [
+        " Edgar Skomorowski",
+        "Adrian Smith"
+      ],
+      "names": [],
+      "num_user_ratings": 89,
+      "average_user_rating": 3.6474719101123596,
+      "official_url": "https://cmon.com/product/rising-sun/rising-sun?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://cmon-files.s3.amazonaws.com/pdf/assets_item/resource/79/Rulebook_RisingSun.pdf",
+      "weight_amount": 2.2,
+      "weight_units": "lbs",
+      "size_height": 12.7,
+      "size_width": 4.7,
+      "size_depth": 12.7,
+      "size_units": "inches",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 450,
+      "reddit_week_count": 0,
+      "reddit_day_count": 9,
+      "historical_low_price": 71.97,
+      "historical_low_date": {
+        "$date": "2019-03-06T11:01:21.188Z"
+      }
+    },
+    {
+      "id": "4rn2FX1Eon",
+      "name": "Forbidden Island",
+      "year_published": 2010,
+      "min_players": 2,
+      "max_players": 4,
+      "min_playtime": 30,
+      "max_playtime": 45,
+      "min_age": 10,
+      "description": "<i>Nominated for the 2011 Spiel des Jahres (Game of the Year) Award.</i><br /><br />\r\nDare to discover Forbidden Island! Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise. Your team will have to work together and make some pulse-pounding maneuvers, as the island will sink beneath every step! Race to collect the treasures and make a triumphant escape before you are swallowed into the watery abyss!",
+      "description_preview": " Nominated for the 2011 Spiel des Jahres (Game of the Year) Award.   \r\nDare to discover Forbidden Island! Join a team of fearless adventurers on a do-or-die mission to capture four sacred treasures from the ruins of this perilous paradise. Your team will have to work together and make some pulse-pounding maneuvers, as the island will sink beneath every step! Race to collect the treasures and make a triumphant escape before you are swallowed into the watery abyss!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539384798707",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539384798707",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1539384798707",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1539384798707",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1539384798707",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1539384798707",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539384798707"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/4rn2FX1Eon/forbidden-island",
+      "price": "16.99",
+      "msrp": "19.99",
+      "discount": "0.15",
+      "primary_publisher": "Gamewright",
+      "publishers": [
+        "Gamewright"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "qu5BcGjAzk"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "KUBCKBkGxV"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        "Matt Leacock"
+      ],
+      "developers": [],
+      "artists": [
+        "C. B. Canga"
+      ],
+      "names": [
+        "Forbidden Island",
+        "Forbidden Island",
+        "Forbidden Island",
+        "Forbidden Island",
+        "Forbidden Island",
+        "Forbidden Island"
+      ],
+      "num_user_ratings": 308,
+      "average_user_rating": 3.0746753246753227,
+      "official_url": "https://gamewright.com/product/Forbidden-Island?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://www.fgbradleys.com/rules/rules2/ForbiddenIsland-rules.pdf",
+      "weight_amount": 1.36,
+      "weight_units": "lbs ",
+      "size_height": 6.5,
+      "size_width": 8.8,
+      "size_depth": 2.8,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "c69qmDp1SX"
+        }
+      ],
+      "reddit_all_time_count": 419,
+      "reddit_week_count": 5,
+      "reddit_day_count": 3,
+      "historical_low_price": 9.99,
+      "historical_low_date": {
+        "$date": "2019-12-06T08:23:29.705Z"
+      }
+    },
+    {
+      "id": "vFMkVLRu8x",
+      "name": "Ethnos",
+      "year_published": 2017,
+      "min_players": 2,
+      "max_players": 6,
+      "min_playtime": 45,
+      "max_playtime": 60,
+      "min_age": 14,
+      "description": "<div><p></p><p>In the faraway land of Ethnos, a new Age Is dawning. The ashes of the old Age have left the Six Kingdoms empty and the twelve Tribes scattered to the winds. Now is the time for a clever leader to unite them into a powerful alliance, skillfully using the unique talents of each tribe to control the Kingdoms.</p>\r\nDo you have the wit and the wisdom to become the next Lord of <i>Ethnos</i> and usher in a Golden Age? Up to six players can evoke the assistance of the Tribes of <i>Ethnos</i> to earn themselves enough glory to be named the Lord of <i>Ethnos</i>. Find out if you're up to the task!<br /> <br /><b>The Tribes of <i>Ethnos</i></b><br /><br />There are twelve distinct tribes that inhabit the land of <i>Ethnos</i>, and each has their own unique ability that will help you take control of the Kingdoms and gain glory for yourself. Call on the Centaurs when swift and decisive actions must be taken! Overwhelm your opponents with sheer numbers by relying on the Halflings! The Dwarves, Elves, Giants, Merfolk, Minotaurs, Orcs, Skeletons, Trolls, Wingfolk, and Wizards are all at your disposal!<br />\r\nUse the special abilities of each tribe to your advantage to take control of territories and gain yourself some extra glory along the way. Work with what you're given to spread your influence and unite the tribes of <i>Ethnos</i> to be crowned the victor!<br /><br /><b>Beginning a New Age</b><br />A game of <i>Ethnos</i> is divided into three Ages in which players will try to gain as much glory as possible. On their turn, players will choose to Recruit an Ally (from either the deck or the face up options on the table) or Play a Band of Allies. Recruiting allies to your cause is necessary if you want to gain any influence in the Six Kingdoms, which you do by playing Bands.<br /><br /><b>Band Together<br /></b>\r\nWhen you play a Band of Allies from your hand (from 1 to 10 cards), each ally within the band must belong to the same Tribe or the same Kingdom (color). Each band has a leader which will determine the ability you get to resolve when playing the band. If the band is large enough, you may place one of your control markers in that kingdom that matches the color of your leader card. You then use your leader card's ability. Then you must discard the cards remaining in your hand face up for other players to recruit from. These bands will be important for scoring at the end of the round, so leave them in front of you.<br /><br /><b>Control the Kingdoms<br /></b>\r\nAs you gain more influence in a Kingdom, the bigger your bands must be to place your control markers there. Each Kingdom will reward players with an amount of glory at the end of an Age according to who has the most influence in each Kingdom. As Ages pass, the players with the second-most and third-most influence in each Kingdom will also gain glory.<br /><br /><b> A New Age Dawns<br /></b>\r\nThe game will play out over three Ages, and the heralding of a new Age is brought on by the arrival of three dragons. Once the third dragon has been drawn from the deck, the Age ends and scoring for that Age begins. Control markers persist between Ages, representing the influence gained in Ages past. Once this has happened three times, the game is over and final scores can be tallied!<p></p>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n</div>",
+      "description_preview": "    In the faraway land of Ethnos, a new Age Is dawning. The ashes of the old Age have left the Six Kingdoms empty and the twelve Tribes scattered to the winds. Now is the time for a clever leader to unite them into a powerful alliance, skillfully using the unique talents of each tribe to control the Kingdoms. \r\nDo you have the wit and the wisdom to become the next Lord of  Ethnos  and usher in a Golden Age? Up to six players can evoke the assistance of the Tribes of  Ethnos  to earn themselves enough glory to be named the Lord of  Ethnos . Find out if you're up to the task!    The Tribes of  Ethnos    There are twelve distinct tribes that inhabit the land of  Ethnos , and each has their own unique ability that will help you take control of the Kingdoms and gain glory for yourself. Call on the Centaurs when swift and decisive actions must be taken! Overwhelm your opponents with sheer numbers by relying on the Halflings! The Dwarves, Elves, Giants, Merfolk, Minotaurs, Orcs, Skeletons, Trolls, Wingfolk, and Wizards are all at your disposal! \r\nUse the special abilities of each tribe to your advantage to take control of territories and gain yourself some extra glory along the way. Work with what you're given to spread your influence and unite the tribes of  Ethnos  to be crowned the victor!   Beginning a New Age  A game of  Ethnos  is divided into three Ages in which players will try to gain as much glory as possible. On their turn, players will choose to Recruit an Ally (from either the deck or the face up options on the table) or Play a Band of Allies. Recruiting allies to your cause is necessary if you want to gain any influence in the Six Kingdoms, which you do by playing Bands.   Band Together  \r\nWhen you play a Band of Allies from your hand (from 1 to 10 cards), each ally within the band must belong to the same Tribe or the same Kingdom (color). Each band has a leader which will determine the ability you get to resolve when playing the band. If the band is large enough, you may place one of your control markers in that kingdom that matches the color of your leader card. You then use your leader card's ability. Then you must discard the cards remaining in your hand face up for other players to recruit from. These bands will be important for scoring at the end of the round, so leave them in front of you.   Control the Kingdoms  \r\nAs you gain more influence in a Kingdom, the bigger your bands must be to place your control markers there. Each Kingdom will reward players with an amount of glory at the end of an Age according to who has the most influence in each Kingdom. As Ages pass, the players with the second-most and third-most influence in each Kingdom will also gain glory.    A New Age Dawns  \r\nThe game will play out over three Ages, and the heralding of a new Age is brought on by the arrival of three dragons. Once the third dragon has been drawn from the deck, the Age ends and scoring for that Age begins. Control markers persist between Ages, representing the influence gained in Ages past. Once this has happened three times, the game is over and final scores can be tallied!  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n ",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1559254188773-61u2CWRFSlL.jpg",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1559254188773-61u2CWRFSlL.jpg"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/vFMkVLRu8x/ethnos",
+      "price": "29.99",
+      "msrp": "39.99",
+      "discount": "0.25",
+      "primary_publisher": "CMON",
+      "publishers": [
+        "CMON"
+      ],
+      "mechanics": [
+        {
+          "id": "05zCZoLvQJ"
+        },
+        {
+          "id": "wV5peB05xs"
+        },
+        {
+          "id": "WPytek5P8l"
+        },
+        {
+          "id": "lA3KUtVFCy"
+        }
+      ],
+      "categories": [
+        {
+          "id": "ZTneo8TaIO"
+        }
+      ],
+      "designers": [
+        " Paolo Mori"
+      ],
+      "developers": [],
+      "artists": [
+        "John Howe"
+      ],
+      "names": [
+        "Ethnos"
+      ],
+      "num_user_ratings": 112,
+      "average_user_rating": 3.3928571428571423,
+      "official_url": "https://cmon.com/product/ethnos/ethnos?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "https://cmon-files.s3.amazonaws.com/pdf/assets_item/resource/84/Rulebook_Ethnos.pdf",
+      "weight_amount": 2.8,
+      "weight_units": "lbs ",
+      "size_height": 11.8,
+      "size_width": 2.4,
+      "size_depth": 11.8,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [],
+      "reddit_all_time_count": 400,
+      "reddit_week_count": 6,
+      "reddit_day_count": 2,
+      "historical_low_price": 24,
+      "historical_low_date": {
+        "$date": "2020-02-11T14:59:37.344Z"
+      }
+    },
+    {
+      "id": "0iNuJdgbmq",
+      "name": "One Deck Dungeon",
+      "year_published": 2016,
+      "min_players": 1,
+      "max_players": 2,
+      "min_playtime": 30,
+      "max_playtime": 45,
+      "min_age": 14,
+      "description": "ALL THE EXCITEMENT OF A ROGUE-LIKE DUNGEON CRAWL IN ONE DECK OF CARDS!<br />\r\n<br />\r\nOne Deck Dungeon is a roguelike game in a small box. Choose a hero, and a dungeon to delve into, and setup is done! The game is very easy to learn, features intuitive dice mechanics and is attractive on a demo table. While the game only supports 1-2 players, you can combine two sets to have a four player dungeon delve.<br />\r\n<br />\r\nOne Deck Dungeon has generated much excitement over the all-female, realistically-clad cast of heroes, something that is quite unique in the tabletop realm!",
+      "description_preview": "ALL THE EXCITEMENT OF A ROGUE-LIKE DUNGEON CRAWL IN ONE DECK OF CARDS! \r\n \r\nOne Deck Dungeon is a roguelike game in a small box. Choose a hero, and a dungeon to delve into, and setup is done! The game is very easy to learn, features intuitive dice mechanics and is attractive on a demo table. While the game only supports 1-2 players, you can combine two sets to have a four player dungeon delve. \r\n \r\nOne Deck Dungeon has generated much excitement over the all-female, realistically-clad cast of heroes, something that is quite unique in the tabletop realm!",
+      "image_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539300977697",
+      "thumb_url": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539300977697",
+      "images": {
+        "thumb": "https://d2k4q26owzy373.cloudfront.net/40x40/games/uploaded/1539300977697",
+        "small": "https://d2k4q26owzy373.cloudfront.net/150x150/games/uploaded/1539300977697",
+        "medium": "https://d2k4q26owzy373.cloudfront.net/350x350/games/uploaded/1539300977697",
+        "large": "https://d2k4q26owzy373.cloudfront.net/700x700/games/uploaded/1539300977697",
+        "original": "https://s3-us-west-1.amazonaws.com/5cc.images/games/uploaded/1539300977697"
+      },
+      "url": "https://www.boardgameatlas.com/search/game/0iNuJdgbmq/one-deck-dungeon",
+      "price": "17.29",
+      "msrp": "25.00",
+      "discount": "0.31",
+      "primary_publisher": "Asmadi Games",
+      "publishers": [
+        "Asmadi Games"
+      ],
+      "mechanics": [
+        {
+          "id": "33UT4gTFqy"
+        },
+        {
+          "id": "vZsDDAdOoe"
+        },
+        {
+          "id": "R0bGq4cAl4"
+        }
+      ],
+      "categories": [
+        {
+          "id": "eX8uuNlQkQ"
+        },
+        {
+          "id": "ZTneo8TaIO"
+        },
+        {
+          "id": "QAYkTHK1Dd"
+        }
+      ],
+      "designers": [
+        " Chris Cieslik"
+      ],
+      "developers": [],
+      "artists": [
+        " Alanna Cervenak",
+        "Will Pitzer"
+      ],
+      "names": [],
+      "num_user_ratings": 86,
+      "average_user_rating": 3.105897009966777,
+      "official_url": "http://www.onedeckdungeon.com/?utm_source=boardgameatlas.com&utm_medium=search&utm_campaign=bga_ads",
+      "rules_url": "http://asmadigames.com/rules/OneDeckDungeon_Rules.pdf",
+      "weight_amount": 1,
+      "weight_units": "lb",
+      "size_height": 4,
+      "size_width": 1.4,
+      "size_depth": 5.5,
+      "size_units": "inches ",
+      "matches_specs": null,
+      "spec": [
+        {
+          "id": "OR2muWUGLH"
+        }
+      ],
+      "reddit_all_time_count": 370,
+      "reddit_week_count": 4,
+      "reddit_day_count": 1,
+      "historical_low_price": 16.19,
+      "historical_low_date": {
+        "$date": "2020-03-03T10:07:05.362Z"
+      }
+    }
+  ]
+}

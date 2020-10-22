@@ -1,0 +1,39 @@
+export GOOGLE_APPLICATION_CREDENTIALS ="/var/ocr/g06-li62d-v1920-cd7ca2d82c4f.json"
+
+sudo chmod -R 777 ocr
+
+java -cp app-ocr-1.0-SNAPSHOT-jar-with-dependencies.jar isel.cn.App premium-ocr-sub
+
+#! /bin/bash
+export GOOGLE_APPLICATION_CREDENTIALS="/var/ocr/g06-li62d-v1920-cd7ca2d82c4f.json"
+cd var
+sudo chmod -R 777 ocr
+cd ocr
+java -cp app-ocr-1.0-SNAPSHOT-jar-with-dependencies.jar isel.cn.App premium-ocr-sub
+
+#! /bin/bash
+export GOOGLE_APPLICATION_CREDENTIALS="/var/ocr/g06-li62d-v1920-cd7ca2d82c4f.json"
+cd var
+sudo chmod -R 777 ocr
+cd ocr
+java -cp app-ocr-1.0-SNAPSHOT-jar-with-dependencies.jar isel.cn.App free-ocr-sub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4fLpep8hm4O0eSzDD1lUt/h8iJGwqUZs5SOyFd1GDUjCe9Cpbu5OEEqkN0d6ZvRT5+Rw37+tUqt8j9xePHF9cPvEaTcxj0RmPx/4qYwh1q5YZiRrIB2aZ2xrYcFWQB2BpJHLtrPG/56H6HI2vWU+R2L8n01RyYwy8hXEP/WIe5gcogkFdVUhhGwkVPdSglZyIW6FQ9qhpCj89RW/yYcP/8CqwK2CD5FZI0m6KbePHrY02BZY2NErRalGz1wwRuzCM+EWH7tbKm4aSo2Qx5ennrnIRuMkmbbe0PKpAzTNM+3TFQ/L579jRaian9iJFedUryv0bvr37M6b6fqCfTcQR G06-LI62D@cn.isel.pt
+
+#! /bin/bash
+export GOOGLE_APPLICATION_CREDENTIALS="/var/ocr/g06-li62d-v1920-cd7ca2d82c4f.json"
+cd var
+sudo chmod -R 777 ocr
+cd ocr
+java -cp TranslationApp-1.0-SNAPSHOT-jar-with-dependencies.jar isel.cn.App premium-translation-sub
+
+#! /bin/bash
+export GOOGLE_APPLICATION_CREDENTIALS="/var/ocr/g06-li62d-v1920-cd7ca2d82c4f.json"
+cd var
+sudo chmod -R 777 ocr
+cd ocr
+java -cp TranslationApp-1.0-SNAPSHOT-jar-with-dependencies.jar isel.cn.App free-translation-sub
+
+/var/ocr $ java -cp TextServiceContract-1.0.jar:server-grpc-1.0-jar-with-dependencies.jar ServerGRPC 8888
+
+/home/G06-LI62D/Screenshot_7.png

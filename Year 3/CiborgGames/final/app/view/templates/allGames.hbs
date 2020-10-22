@@ -1,0 +1,27 @@
+<div class="body-allGames">
+    <h2 class="games-header">
+        <div class="search-container">
+            <p style="float:left;margin-left: 10vw;">List of {{title}} games</p>
+            <form class="form-inline md-form mr-auto mb-4" style="float:right;padding-right: 10vw;" id="gamesByName">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search Game..." aria-label="Search" id="inputGameName">
+                <button type="submit"><i class="fa fa-search" style="size: 10px 10px"></i></button>
+            </form>
+        </div>
+    </h2>
+    <div class="row cards-table">
+        {{#each games}}
+            <div class="card">
+                <div class="img_card_game" >
+                    <a href="#gameDetails/{{[0].name}}" title="{{[0].name}}">
+                        <img class="img-game" src="{{[0].image_url}}" alt="{{[0].name}}"/>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <p><strong><a style="color: black" href="#gameDetails/{{[0].name}}">{{[0].name}}</a></strong></p>
+                    <p>RATING: {{[0].average_user_rating}}</p>
+                    <p>PRICE: ${{[0].price}}</p>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
